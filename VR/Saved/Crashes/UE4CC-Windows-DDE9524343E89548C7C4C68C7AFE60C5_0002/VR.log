@@ -1,0 +1,547 @@
+﻿Log file open, 07/23/17 19:23:41
+LogInit:Display: Running engine for game: VR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1988214126) SRandInit(1988214127).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084590
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.16.0(build = 409268) feature version = 0. Client runs version (prod = 1).1.16.0(build = 409268) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.23-18.23.42:120][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.23-18.23.42:120][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.23-18.23.42:127][  0]LogInit: Computer: SCOTTPC
+[2017.07.23-18.23.42:127][  0]LogInit: User: scott
+[2017.07.23-18.23.42:127][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.23-18.23.42:127][  0]LogInit: High frequency timer resolution =3.423909 MHz
+[2017.07.23-18.23.42:127][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.23-18.23.42:127][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.23-18.23.42:127][  0]LogMemory: Process Physical Memory: 278.28 MB used, 278.28 MB peak
+[2017.07.23-18.23.42:127][  0]LogMemory: Process Virtual Memory: 264.05 MB used, 264.05 MB peak
+[2017.07.23-18.23.42:127][  0]LogMemory: Physical Memory: 8964.37 MB used,  7347.53 MB free, 16311.90 MB total
+[2017.07.23-18.23.42:127][  0]LogMemory: Virtual Memory: 676.95 MB used,  7347.53 MB free, 134217728.00 MB total
+[2017.07.23-18.23.42:186][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.23-18.23.42:186][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.23-18.23.42:189][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.23-18.23.42:983][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.23-18.23.43:023][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.07.23-18.23.43:023][  0]LogD3D11RHI:       8110/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.23-18.23.43:024][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.23-18.23.43:024][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.23-18.23.43:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.23-18.23.43:031][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.23-18.23.43:031][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.23-18.23.43:031][  0]LogWindows: EnumDisplayDevices:
+[2017.07.23-18.23.43:031][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.07.23-18.23.43:032][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.07.23-18.23.43:032][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.23-18.23.43:032][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.23-18.23.43:032][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.23-18.23.43:032][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.07.23-18.23.43:032][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.23-18.23.43:032][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.23-18.23.43:032][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.23-18.23.43:056][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.23-18.23.43:065][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.23-18.23.43:156][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/scott/Documents/GitHub/VR/VR/Intermediate/Shaders/WorkingDirectory/16312/).
+[2017.07.23-18.23.43:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scott/AppData/Local/Temp/UnrealShaderWorkingDir/1AA188A9469551A8A10FED9767BD1715/'.
+[2017.07.23-18.23.43:156][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.23-18.23.44:033][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.23-18.23.44:072][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.23-18.23.44:113][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.23-18.23.44:159][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.23-18.23.44:201][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.23-18.23.44:243][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.23-18.23.44:284][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.23-18.23.44:324][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.23-18.23.44:360][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.23-18.23.44:400][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.23-18.23.44:440][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.23-18.23.44:481][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.23-18.23.44:522][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.23-18.23.44:561][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.23-18.23.44:602][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.23-18.23.44:681][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.23-18.23.44:681][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.23-18.23.44:714][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.23-18.23.44:792][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.23-18.23.44:817][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.23-18.23.44:856][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.23-18.23.44:895][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.23-18.23.44:935][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.23-18.23.44:975][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.23-18.23.44:975][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.23-18.23.45:390][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache: Loaded boot cache 0.10s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.23-18.23.45:491][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.23-18.23.45:505][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.23-18.23.45:516][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.23-18.23.45:525][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.23-18.23.45:525][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.23-18.23.45:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.23-18.23.45:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.23-18.23.45:784][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.23-18.23.45:845][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.23-18.23.45:977][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.23-18.23.46:013][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.23-18.23.46:050][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.23-18.23.46:050][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.23-18.23.46:050][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.23-18.23.46:521][  0]LogNetVersion: VR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1895307458)
+[2017.07.23-18.23.46:582][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.07.23-18.23.46:634][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.032780 seconds
+[2017.07.23-18.23.46:638][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.23-18.23.46:638][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.23-18.23.46:638][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.23-18.23.46:695][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.23-18.23.48:817][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.23-18.23.48:855][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.23-18.23.49:304][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.23-18.23.49:625][  0]SourceControl: Info Source control is disabled
+[2017.07.23-18.23.49:656][  0]SourceControl: Info Source control is disabled
+[2017.07.23-18.23.49:694][  0]SourceControl: Info Source control is disabled
+[2017.07.23-18.23.49:730][  0]SourceControl: Info Source control is disabled
+[2017.07.23-18.23.50:274][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.23-18.23.50:745][  0]LogEngine: Initializing Engine...
+[2017.07.23-18.23.50:781][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.07.23-18.23.50:782][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.16.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.07.23-18.23.50:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.23-18.23.50:998][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.23-18.23.51:099][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.23-18.23.51:109][  0]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.23-18.23.51:123][  0]LogInit: FAudioDevice initialized.
+[2017.07.23-18.23.51:184][  0]LogDerivedDataCache: Saved boot cache 0.06s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.23-18.23.51:201][  0]LogInit: Texture streaming: Enabled
+[2017.07.23-18.23.51:280][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.23-18.23.51:452][  0]LogInit: Transaction tracking system initialized
+[2017.07.23-18.23.51:706][  0]BlueprintLog: New page: Editor Load
+[2017.07.23-18.23.52:500][  0]LocalizationService: Info Localization service is disabled
+[2017.07.23-18.23.53:298][  0]LogConsoleResponse:Display: 
+[2017.07.23-18.23.53:422][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.23-18.23.53:422][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.23-18.23.54:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' took 0.02s
+[2017.07.23-18.23.54:256][  0]SourceControl: Info Source control is disabled
+[2017.07.23-18.23.54:257][  0]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.23-18.23.54:257][  0]LightingResults: New page: Lighting Build
+[2017.07.23-18.23.54:289][  0]MapCheck: New page: Map Check
+[2017.07.23-18.23.54:289][  0]LightingResults: New page: Lighting Build
+[2017.07.23-18.23.54:957][  0]LogAIModule: Creating AISystem for world Prototype
+[2017.07.23-18.23.54:970][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.23-18.23.54:988][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.23-18.23.55:042][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.83ms to complete.
+[2017.07.23-18.23.55:042][  0]LogFileHelpers: Loading map 'Prototype' took 0.785
+[2017.07.23-18.23.55:183][  0]LogCollectionManager: Loaded 0 collections in 0.001247 seconds
+[2017.07.23-18.23.55:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' took 0.01s
+[2017.07.23-18.23.55:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' took 0.01s
+[2017.07.23-18.23.55:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' took 0.01s
+[2017.07.23-18.23.55:260][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.23-18.23.55:270][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2329 classes and 491 folders.
+[2017.07.23-18.23.55:334][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.23-18.23.55:369][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.07.23-18.23.55:414][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.07.23-18.23.55:449][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.23-18.23.55:454][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.23-18.23.55:456][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.23-18.23.55:459][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.23-18.23.55:549][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.07.23-18.23.55:661][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.23-18.23.55:735][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.23-18.23.55:735][  0]LogLoad: (Engine Initialization) Total time: 15.46 seconds
+[2017.07.23-18.23.55:735][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.07.23-18.23.55:735][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.23-18.23.55:749][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.23-18.23.55:751][  0]LogOcInput: OculusInput pre-init called
+[2017.07.23-18.23.55:762][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.16.0
+[2017.07.23-18.23.55:762][  0]LogHMD: Starting GearVRController plugin
+[2017.07.23-18.23.55:784][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.07.23-18.23.55:835][  1]LogAssetRegistry: Asset discovery search completed in 9.2751 seconds
+[2017.07.23-18.23.55:837][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.23-18.23.55:837][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.07.23-18.24.54:599][812]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.23-18.24.54:644][814]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VR
+[2017.07.23-18.24.54:644][814]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.23-18.24.54:644][814]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.23-18.24.54:644][814]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.23-18.24.54:644][814]LogTemp: BranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.23-18.24.54:660][815]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\scott\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.23-18.26.00:414][671]LogSlate: Took 0.000454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-18.26.21:547][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_FloorTile_5)
+[2017.07.23-18.26.25:738][633]LogSlate: Took 0.002872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.23-18.26.38:218][ 72]Cmd: DELETE
+[2017.07.23-18.26.38:218][ 72]Cmd: ACTOR DELETE
+[2017.07.23-18.26.38:222][ 72]LogEditorActor: Deleted Actor: Character
+[2017.07.23-18.26.38:230][ 72]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.23-18.26.40:720][367]LogActorFactory: Actor Factory created Cube
+[2017.07.23-18.26.41:872][485]LogActorFactory: Actor Factory created Cube
+[2017.07.23-18.27.10:670][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:670][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/AI/Enemy_AI_VSWall.uasset.
+[2017.07.23-18.27.10:670][887]LoadErrors:Error: Error /Game/VirtualRealityBP/Blueprints/AI/Enemy_AI_VSWall : Can't find file for asset. /Game/Wall_Character
+[2017.07.23-18.27.10:671][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:671][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/AI/Enemy_AI_VSWall.uasset.
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:672][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.10:673][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:673][887]LoadErrors: Info Failed to load /Game/Wall_Character.Wall_Character_C Referenced by Enemy_AI_VSWall
+[2017.07.23-18.27.10:673][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.10:673][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:673][887]LoadErrors: Info Failed to load /Game/Wall_Character.Wall_Character_C Referenced by K2Node_DynamicCast_41
+[2017.07.23-18.27.10:673][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.10:673][887]LogLinker:Warning: Can't find file '/Game/Wall_Character'
+[2017.07.23-18.27.10:674][887]LogLinker:Warning: Can't find file for asset '/Game/Wall_Character' while loading NULL.
+[2017.07.23-18.27.12:796][135]Cmd: DELETE
+[2017.07.23-18.27.12:796][135]Cmd: ACTOR DELETE
+[2017.07.23-18.27.12:798][135]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.23-18.27.12:807][135]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.23-18.27.16:627][585]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-18.27.20:124][875]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.23-18.27.20:140][875]LightingResults: New page: Lighting Build
+[2017.07.23-18.27.20:141][875]LoadErrors: New page: Loading map: Prototype.umap
+[2017.07.23-18.27.20:145][875]MapCheck: New page: Map Check
+[2017.07.23-18.27.20:145][875]LightingResults: New page: Lighting Build
+[2017.07.23-18.27.20:202][875]LogAIModule: Creating AISystem for world Prototype
+[2017.07.23-18.27.20:226][875]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.23-18.27.20:267][875]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.23-18.27.20:312][875]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.146ms to complete.
+[2017.07.23-18.27.20:312][875]LogFileHelpers: Loading map 'Prototype' took 0.189
+[2017.07.23-18.27.30:939][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:939][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:939][131]LoadErrors:Error: Error /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test : Can't find file for asset. /Script/VR
+[2017.07.23-18.27.30:939][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:939][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:940][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:955][131]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2017.07.23-18.27.30:955][131]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualReality/Mannequin/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2017.07.23-18.27.30:955][131]LoadErrors:Error: Error /Game/VirtualReality/Mannequin/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : Can't find file for asset. /Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD
+[2017.07.23-18.27.30:955][131]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2017.07.23-18.27.30:955][131]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualReality/Mannequin/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset.
+[2017.07.23-18.27.30:959][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:959][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:959][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:959][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.uasset.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:960][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:961][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:962][131]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD'
+[2017.07.23-18.27.30:963][131]LoadErrors: Info Failed to load /Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by MaterialExpressionTextureSample_4
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD' while loading NULL.
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:963][131]LoadErrors: Info Failed to load /Script/VR.Base_Character Referenced by VREnemy_VSPlayer_Test
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:963][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:963][131]LoadErrors: Info Failed to load /Script/VR.Base_Character Referenced by K2Node_VariableGet_153
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:964][131]LoadErrors: Info Failed to load /Script/VR.Base_Character Referenced by K2Node_VariableSet_63
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: Can't find file '/Script/VR'
+[2017.07.23-18.27.30:964][131]LoadErrors: Info Failed to load /Script/VR.Base_Character Referenced by PackageMetaData
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: Can't find file for asset '/Script/VR' while loading NULL.
+[2017.07.23-18.27.30:964][131]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Enemy_Colour': BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Dyna_Mat': BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_CreateDynamicMaterialInstance_ReturnValue': Function /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C:UserConstructionScript
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': VREnemy_VSPlayer_Test_C /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.Default__VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': VREnemy_VSPlayer_Test_C /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.Default__VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': VREnemy_VSPlayer_Test_C /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.Default__VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:002][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.31:003][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.VREnemy_VSPlayer_Test_C:SimpleConstructionScript_0
+[2017.07.23-18.27.31:003][131]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': VREnemy_VSPlayer_Test_C /Game/VirtualRealityBP/Blueprints/Enemy_Types/VREnemy_VSPlayer_Test.Default__VREnemy_VSPlayer_Test_C
+[2017.07.23-18.27.42:242][463]LogActorFactory: Actor Factory created Cube
+[2017.07.23-18.27.43:193][554]LogActorFactory: Actor Factory created Cube
+[2017.07.23-18.27.53:677][796]Cmd: DELETE
+[2017.07.23-18.27.53:677][796]Cmd: ACTOR DELETE
+[2017.07.23-18.27.53:680][796]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.23-18.27.53:687][796]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.23-18.27.56:169][ 93]Cmd: TRANSACTION UNDO
+[2017.07.23-18.27.56:169][ 93]LogEditorTransaction: Undo Delete Actors
+[2017.07.23-18.27.56:201][ 93]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-18.28.25:285][486]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.23-18.28.25:613][486]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.07.23-18.28.25:901][486]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.056 s
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 621]
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: Unable to resolve IsEventUnimplementable() - Blueprint (VREnemy_VSPlayer_Test) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: Stack: 
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56E256
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD31B862
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD331E26
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D011D
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0F4D
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0C29
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC852AD5
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC890EED
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC85343A
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA57557
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB9109C
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB955DC
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2CA4FC8
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2BCE52D
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA444EF
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB6F59D
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA65FBF
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA43AA3
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA665BF
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC797523
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7D1844
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7C0A2A
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC83F4EF
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC95160D
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C16340C
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000ADC76EA3
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C103465
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD771A8
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD24BE7
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2CA07
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD810D9
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD231C1
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2B89F
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD292A8
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8D900
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8133A
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CDA8DE
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CA90EE
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D4CAA4
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D36595
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D27939
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD5616A9
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD54B771
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56337B
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD547AC2
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: USER32.dll!0x00000000F101BC50
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: USER32.dll!0x00000000F101B5CF
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD563C86
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E55DB44
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F0B0
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F12A
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E560CF9
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E5625F7
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F0F12774
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: ntdll.dll!0x00000000F1F50D51
+[2017.07.23-18.28.25:901][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.25:903][486]LogStats:                SubmitErrorReport -  0.000 s
+[2017.07.23-18.28.26:258][486]LogStats:                    SendNewReport -  0.355 s
+[2017.07.23-18.28.26:258][486]LogStats:             FDebug::EnsureFailed -  0.414 s
+[2017.07.23-18.28.26:264][486]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 720]
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: Unable to resolve IsFieldInaccessible() - Blueprint (VREnemy_VSPlayer_Test) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: Stack: 
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56E256
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD31B862
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD331E26
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0ABC
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0F4D
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0C29
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC852AD5
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC890EED
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC85343A
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA57557
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB9109C
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB955DC
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2CA4FC8
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2BCE52D
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA444EF
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB6F59D
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA65FBF
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA43AA3
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA665BF
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC797523
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7D1844
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7C0A2A
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC83F4EF
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC95160D
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C16340C
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000ADC76EA3
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C103465
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD771A8
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD24BE7
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2CA07
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD810D9
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD231C1
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2B89F
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD292A8
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8D900
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8133A
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CDA8DE
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CA90EE
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D4CAA4
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D36595
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D27939
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD5616A9
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD54B771
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56337B
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD547AC2
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: USER32.dll!0x00000000F101BC50
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: USER32.dll!0x00000000F101B5CF
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD563C86
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E55DB44
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F0B0
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F12A
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E560CF9
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E5625F7
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F0F12774
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: ntdll.dll!0x00000000F1F50D51
+[2017.07.23-18.28.26:264][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.26:270][486]LogStats:                SubmitErrorReport -  0.000 s
+[2017.07.23-18.28.26:414][486]LogStats:                    SendNewReport -  0.144 s
+[2017.07.23-18.28.26:414][486]LogStats:             FDebug::EnsureFailed -  0.151 s
+[2017.07.23-18.28.26:576][486]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: Ensure condition failed: Blueprint != nullptr && Blueprint->ParentClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 1670]
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: Stack: 
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56E256
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD31B862
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD331E26
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D1F7E
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0F4D
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000959D0C29
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC852AD5
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC890EED
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC85343A
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA57557
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB9109C
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB955DC
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2CA4FC8
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000C2BCE52D
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA444EF
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACB6F59D
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA65FBF
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA43AA3
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000ACA665BF
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC797523
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7D1844
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC7C0A2A
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC83F4EF
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000AC95160D
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C16340C
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000ADC76EA3
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000008C103465
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD771A8
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD24BE7
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2CA07
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD810D9
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD231C1
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD2B89F
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD292A8
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8D900
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000008AD8133A
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CDA8DE
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0CA90EE
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D4CAA4
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D36595
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C0D27939
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD5616A9
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD54B771
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD56337B
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD547AC2
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: USER32.dll!0x00000000F101BC50
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: USER32.dll!0x00000000F101B5CF
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD563C86
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E55DB44
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F0B0
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E54F12A
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E560CF9
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: UE4Editor.exe!0x000000003E5625F7
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F0F12774
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: ntdll.dll!0x00000000F1F50D51
+[2017.07.23-18.28.26:576][486]LogOutputDevice:Error: 
+[2017.07.23-18.28.26:585][486]LogStats:                SubmitErrorReport -  0.000 s
