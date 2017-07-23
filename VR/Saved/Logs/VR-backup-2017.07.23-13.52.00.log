@@ -1,0 +1,763 @@
+﻿Log file open, 07/20/17 23:07:13
+LogInit:Display: Running engine for game: VR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1518280878) SRandInit(-1518280877).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084286
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.16.0(build = 409268) feature version = 0. Client runs version (prod = 1).1.16.0(build = 409268) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile Scott
+OCULUS: Info: IAD changed to 63.5mm
+OCULUS: Debug: Creating factory
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.20-22.07.13:856][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-22.07.13:856][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.20-22.07.13:863][  0]LogInit: Computer: SCOTTPC
+[2017.07.20-22.07.13:863][  0]LogInit: User: scott
+[2017.07.20-22.07.13:863][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.20-22.07.13:863][  0]LogInit: High frequency timer resolution =3.423909 MHz
+[2017.07.20-22.07.13:863][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.20-22.07.13:863][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.20-22.07.13:863][  0]LogMemory: Process Physical Memory: 277.55 MB used, 277.55 MB peak
+[2017.07.20-22.07.13:863][  0]LogMemory: Process Virtual Memory: 264.19 MB used, 264.19 MB peak
+[2017.07.20-22.07.13:863][  0]LogMemory: Physical Memory: 8252.47 MB used,  8059.43 MB free, 16311.90 MB total
+[2017.07.20-22.07.13:863][  0]LogMemory: Virtual Memory: 676.95 MB used,  8059.43 MB free, 134217728.00 MB total
+[2017.07.20-22.07.13:920][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.20-22.07.13:920][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.20-22.07.13:922][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.20-22.07.14:759][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.20-22.07.14:798][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.07.20-22.07.14:798][  0]LogD3D11RHI:       8110/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.20-22.07.14:799][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.20-22.07.14:799][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.20-22.07.14:799][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.20-22.07.14:808][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.20-22.07.14:808][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.20-22.07.14:808][  0]LogWindows: EnumDisplayDevices:
+[2017.07.20-22.07.14:809][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.07.20-22.07.14:809][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.07.20-22.07.14:809][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.20-22.07.14:809][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.20-22.07.14:809][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.20-22.07.14:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.07.20-22.07.14:809][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.20-22.07.14:809][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.20-22.07.14:809][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.20-22.07.14:837][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.20-22.07.14:847][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.20-22.07.14:939][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/scott/Documents/GitHub/VR/VR/Intermediate/Shaders/WorkingDirectory/12280/).
+[2017.07.20-22.07.14:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scott/AppData/Local/Temp/UnrealShaderWorkingDir/5159BB6741EF52608487B5B67DD1A2D5/'.
+[2017.07.20-22.07.14:939][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.20-22.07.15:851][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.20-22.07.15:893][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.20-22.07.15:934][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.20-22.07.15:977][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.20-22.07.16:017][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.20-22.07.16:061][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.20-22.07.16:103][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.20-22.07.16:148][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.20-22.07.16:185][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.20-22.07.16:229][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.20-22.07.16:272][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.20-22.07.16:313][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.20-22.07.16:354][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.20-22.07.16:396][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.20-22.07.16:438][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.20-22.07.16:521][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.20-22.07.16:521][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.20-22.07.16:552][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.20-22.07.16:631][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.20-22.07.16:654][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.20-22.07.16:699][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.20-22.07.16:740][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.20-22.07.16:784][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.20-22.07.16:823][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.20-22.07.16:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.20-22.07.17:226][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache: Loaded boot cache 0.10s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.20-22.07.17:325][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.20-22.07.17:341][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.20-22.07.17:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.20-22.07.17:362][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.20-22.07.17:362][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.20-22.07.17:363][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-22.07.17:363][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-22.07.17:636][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-22.07.17:698][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.20-22.07.17:831][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.20-22.07.17:868][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.20-22.07.17:906][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.20-22.07.17:906][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.20-22.07.17:906][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.20-22.07.18:364][  0]LogNetVersion: VR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1895307458)
+[2017.07.20-22.07.18:420][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.07.20-22.07.18:475][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.035252 seconds
+[2017.07.20-22.07.18:480][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.20-22.07.18:480][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.20-22.07.18:480][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.20-22.07.18:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.20-22.07.20:515][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.20-22.07.20:548][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.20-22.07.20:996][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.20-22.07.21:324][  0]SourceControl: Info Source control is disabled
+[2017.07.20-22.07.21:354][  0]SourceControl: Info Source control is disabled
+[2017.07.20-22.07.21:394][  0]SourceControl: Info Source control is disabled
+[2017.07.20-22.07.21:431][  0]SourceControl: Info Source control is disabled
+[2017.07.20-22.07.21:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.20-22.07.22:465][  0]LogEngine: Initializing Engine...
+[2017.07.20-22.07.22:465][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.16.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.07.20-22.07.22:664][  0]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.07.22:664][  0]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.07.22:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.20-22.07.22:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.20-22.07.22:772][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.20-22.07.22:782][  0]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.07.22:797][  0]LogInit: FAudioDevice initialized.
+[2017.07.20-22.07.22:846][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.20-22.07.22:861][  0]LogInit: Texture streaming: Enabled
+[2017.07.20-22.07.22:942][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.20-22.07.23:121][  0]LogInit: Transaction tracking system initialized
+[2017.07.20-22.07.23:367][  0]BlueprintLog: New page: Editor Load
+[2017.07.20-22.07.24:139][  0]LocalizationService: Info Localization service is disabled
+[2017.07.20-22.07.24:942][  0]LogConsoleResponse:Display: 
+[2017.07.20-22.07.25:067][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.20-22.07.25:067][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.20-22.07.25:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' took 0.02s
+[2017.07.20-22.07.25:889][  0]SourceControl: Info Source control is disabled
+[2017.07.20-22.07.25:889][  0]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.07.25:890][  0]LightingResults: New page: Lighting Build
+[2017.07.20-22.07.25:924][  0]MapCheck: New page: Map Check
+[2017.07.20-22.07.25:924][  0]LightingResults: New page: Lighting Build
+[2017.07.20-22.07.25:994][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.07.20-22.07.26:000][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.07.26:016][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.07.26:054][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.147ms to complete.
+[2017.07.20-22.07.26:054][  0]LogFileHelpers: Loading map 'StartupMap' took 0.164
+[2017.07.20-22.07.26:209][  0]LogCollectionManager: Loaded 0 collections in 0.001727 seconds
+[2017.07.20-22.07.26:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' took 0.01s
+[2017.07.20-22.07.26:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' took 0.01s
+[2017.07.20-22.07.26:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' took 0.01s
+[2017.07.20-22.07.26:282][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.20-22.07.26:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2329 classes and 491 folders.
+[2017.07.20-22.07.26:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.20-22.07.26:372][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.20-22.07.26:405][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.20-22.07.26:436][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.20-22.07.26:440][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.20-22.07.26:441][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.20-22.07.26:445][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.20-22.07.26:523][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.07.20-22.07.26:610][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.07.26:667][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.20-22.07.26:667][  0]LogLoad: (Engine Initialization) Total time: 14.20 seconds
+[2017.07.20-22.07.26:667][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.07.20-22.07.26:667][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.20-22.07.26:678][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.20-22.07.26:678][  0]LogOcInput: OculusInput pre-init called
+[2017.07.20-22.07.26:688][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.16.0
+[2017.07.20-22.07.26:688][  0]LogHMD: Starting GearVRController plugin
+[2017.07.20-22.07.26:706][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.07.20-22.07.26:810][  1]LogAssetRegistry: Asset discovery search completed in 8.4111 seconds
+[2017.07.20-22.07.26:812][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.20-22.07.26:812][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.07.20-22.07.51:469][915]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-22.07.52:045][915]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.07.52:073][915]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.07.52:073][915]LightingResults: New page: Lighting Build
+[2017.07.20-22.07.52:074][915]LoadErrors: New page: Loading map: Prototype.umap
+[2017.07.20-22.07.52:075][915]MapCheck: New page: Map Check
+[2017.07.20-22.07.52:075][915]LightingResults: New page: Lighting Build
+[2017.07.20-22.07.52:089][915]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.07.52:113][915]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.07.52:163][915]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.208ms to complete.
+[2017.07.20-22.07.52:163][915]LogFileHelpers: Loading map 'Prototype' took 0.091
+[2017.07.20-22.07.53:808][108]LogTemp: Repeting last play command: VR Preview
+[2017.07.20-22.07.53:849][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.07.53:850][108]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.07.53:850][108]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.07.53:850][108]LogHMD: New ovr session is created
+[2017.07.20-22.07.53:850][108]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.07.53:851][108]PIE: New page: PIE session: Prototype (21 Jul 2017 00:07:53)
+[2017.07.20-22.07.53:851][108]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.07.53:879][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028377s)
+[2017.07.20-22.07.53:880][108]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.07.53:880][108]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.07.20-22.07.53:880][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.029135s)
+[2017.07.20-22.07.53:895][108]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.07.53:907][108]LogInit: FAudioDevice initialized.
+[2017.07.20-22.07.54:014][108]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.07.54:014][108]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.07.54:019][108]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.07.54
+[2017.07.20-22.07.54:019][108]LogWorld: Bringing up level for play took: 0.003329
+[2017.07.20-22.07.54:056][108]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.07.20-22.07.54:064][108]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.933
+[2017.07.20-22.07.54:071][108]LogHMD: Reallocation of eye buffer was requested
+[2017.07.20-22.07.54:072][108]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002520955BD60
+[2017.07.20-22.07.54:100][108]LogRenderer: Reallocating scene render targets to support 2392x1472 NumSamples 1 (Frame:1).
+[2017.07.20-22.07.54:473][136]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.08.33:769][ 83]LogHMD: Lost Vision Tracking
+[2017.07.20-22.08.34:730][155]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.08.40:997][625]LogHMD: Lost Vision Tracking
+[2017.07.20-22.08.41:718][678]LogHMD: Destroying ovr session
+[2017.07.20-22.08.41:719][678]LogHMD: Freeing textureSet 0x000002520955BD60
+[2017.07.20-22.08.53:280][ 40]LogAIModule: Creating AISystem for world StartupMap
+[2017.07.20-22.08.53:294][ 40]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.08.53:294][ 40]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.53:294][ 40]LoadErrors: New page: Loading map: StartupMap.umap
+[2017.07.20-22.08.53:295][ 40]MapCheck: New page: Map Check
+[2017.07.20-22.08.53:295][ 40]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.53:306][ 40]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.08.53:331][ 40]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.08.53:376][ 40]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.496ms to complete.
+[2017.07.20-22.08.53:376][ 40]LogFileHelpers: Loading map 'StartupMap' took 0.083
+[2017.07.20-22.08.55:574][292]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.07.20-22.08.55:587][292]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.08.55:587][292]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.55:588][292]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.07.20-22.08.55:589][292]MapCheck: New page: Map Check
+[2017.07.20-22.08.55:589][292]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.55:600][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.08.55:626][292]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.08.55:670][292]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.664ms to complete.
+[2017.07.20-22.08.55:670][292]LogFileHelpers: Loading map 'MotionControllerMap' took 0.083
+[2017.07.20-22.08.56:798][408]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2017.07.20-22.08.56:813][408]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.08.56:813][408]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.56:814][408]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
+[2017.07.20-22.08.56:814][408]MapCheck: New page: Map Check
+[2017.07.20-22.08.56:814][408]LightingResults: New page: Lighting Build
+[2017.07.20-22.08.56:827][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.08.56:852][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.08.56:897][408]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.896ms to complete.
+[2017.07.20-22.08.56:897][408]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.084
+[2017.07.20-22.09.00:461][831]LogTemp: Repeting last play command: VR Preview
+[2017.07.20-22.09.00:471][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap'
+[2017.07.20-22.09.00:471][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.09.00:473][831]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.09.00:473][831]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.09.00:473][831]LogHMD: New ovr session is created
+[2017.07.20-22.09.00:473][831]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.09.00:473][831]PIE: New page: PIE session: HMDLocomotionMap (21 Jul 2017 00:09:00)
+[2017.07.20-22.09.00:473][831]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_HMDLocomotionMap
+[2017.07.20-22.09.00:481][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007800s)
+[2017.07.20-22.09.00:481][831]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2017.07.20-22.09.00:481][831]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.07.20-22.09.00:481][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_HMDLocomotionMap.HMDLocomotionMap (0.008487s)
+[2017.07.20-22.09.00:491][831]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.09.00:495][831]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.09.00:506][831]LogInit: FAudioDevice initialized.
+[2017.07.20-22.09.00:594][831]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.09.00:594][831]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.09.00:596][831]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_HMDLocomotionMap.HMDLocomotionMap up for play (max tick rate 0) at 2017.07.20-23.09.00
+[2017.07.20-22.09.00:596][831]LogWorld: Bringing up level for play took: 0.001304
+[2017.07.20-22.09.00:601][831]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_HMDLocomotionMap -0.531
+[2017.07.20-22.09.00:601][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap'
+[2017.07.20-22.09.00:614][831]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.09.00:617][831]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x0000025208BCC7F0
+[2017.07.20-22.09.02:811][997]LogHMD: Lost Vision Tracking
+[2017.07.20-22.09.03:851][ 75]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.09.10:851][600]OCULUS: Error: WaitableTimer slept too long/short (i.e. 1.796542 ms)
+[2017.07.20-22.09.19:893][278]OCULUS: Error: WaitableTimer slept too long/short (i.e. 3.692800 ms)
+[2017.07.20-22.09.23:197][526]LogHMD: Lost Vision Tracking
+[2017.07.20-22.09.23:866][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap'
+[2017.07.20-22.09.23:879][576]LogHMD: Destroying ovr session
+[2017.07.20-22.09.23:879][576]LogHMD: Freeing textureSet 0x0000025208BCC7F0
+[2017.07.20-22.09.23:966][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap:PersistentLevel.HMDLocomotionMap'
+[2017.07.20-22.09.43:167][831]LogSlate: Took 0.001890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.20-22.09.58:865][668]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.09.58:880][668]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-22.09.58:880][668]LightingResults: New page: Lighting Build
+[2017.07.20-22.09.58:880][668]LoadErrors: New page: Loading map: Prototype.umap
+[2017.07.20-22.09.58:909][668]MapCheck: New page: Map Check
+[2017.07.20-22.09.58:909][668]LightingResults: New page: Lighting Build
+[2017.07.20-22.09.58:923][668]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-22.09.58:946][668]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-22.09.58:994][668]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.379ms to complete.
+[2017.07.20-22.09.58:994][668]LogFileHelpers: Loading map 'Prototype' took 0.115
+[2017.07.20-22.10.16:562][745]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.07.20-22.10.19:072][ 27]LogEditorViewport: Clicking on Actor (context menu): MotionControllerPawn_C (VRPawn)
+[2017.07.20-22.10.23:201][453]EditorErrors: New page: Actor Reattachment
+[2017.07.20-22.11.01:848][144]LogTemp: Repeting last play command: VR Preview
+[2017.07.20-22.11.01:859][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.11.01:870][144]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.11.01:870][144]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.11.01:870][144]LogHMD: New ovr session is created
+[2017.07.20-22.11.01:870][144]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.11.01:870][144]PIE: New page: PIE session: Prototype (21 Jul 2017 00:11:01)
+[2017.07.20-22.11.01:870][144]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.11.01:901][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031289s)
+[2017.07.20-22.11.01:902][144]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.11.01:902][144]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.07.20-22.11.01:902][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.032297s)
+[2017.07.20-22.11.01:940][144]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.11.01:944][144]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.11.01:956][144]LogInit: FAudioDevice initialized.
+[2017.07.20-22.11.02:045][144]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.11.02:045][144]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.11.02:050][144]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.11.02
+[2017.07.20-22.11.02:052][144]LogWorld: Bringing up level for play took: 0.005427
+[2017.07.20-22.11.02:057][144]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.926
+[2017.07.20-22.11.02:066][144]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.11.02:068][144]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002522BC351F0
+[2017.07.20-22.11.21:545][603]OCULUS: Error: WaitableTimer slept too long/short (i.e. 4.486797 ms)
+[2017.07.20-22.11.23:555][753]OCULUS: Error: WaitableTimer slept too long/short (i.e. 2.050024 ms)
+[2017.07.20-22.11.35:649][660]LogHMD: Lost Vision Tracking
+[2017.07.20-22.11.37:142][772]LogHMD: Vision Tracking Acquired
+[2017.07.20-22.11.41:638][109]OCULUS: Error: WaitableTimer slept too long/short (i.e. 4.163981 ms)
+[2017.07.20-22.11.51:583][854]LogHMD: Destroying ovr session
+[2017.07.20-22.11.51:583][854]LogHMD: Freeing textureSet 0x000002522BC351F0
+[2017.07.20-22.11.58:116][605]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.07.20-22.12.01:328][918]LogEditorViewport: Clicking on Actor (LMB): HMDLocomotionPawn_C (VRPawn)
+[2017.07.20-22.12.05:632][410]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.05:632][410]LogEditorTransaction: Undo Move Actors
+[2017.07.20-22.12.05:659][410]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-22.12.17:937][836]LogTemp: Repeting last play command: VR Preview
+[2017.07.20-22.12.17:947][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.12.17:965][836]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.12.17:965][836]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.12.17:965][836]LogHMD: New ovr session is created
+[2017.07.20-22.12.17:965][836]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.12.17:965][836]PIE: New page: PIE session: Prototype (21 Jul 2017 00:12:17)
+[2017.07.20-22.12.17:965][836]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.12.17:994][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029261s)
+[2017.07.20-22.12.17:995][836]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.12.17:995][836]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2017.07.20-22.12.17:995][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.030043s)
+[2017.07.20-22.12.18:032][836]LogHMD: Lost Vision Tracking
+[2017.07.20-22.12.18:036][836]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.12.18:047][836]LogInit: FAudioDevice initialized.
+[2017.07.20-22.12.18:138][836]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.12.18:138][836]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.12.18:144][836]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.12.18
+[2017.07.20-22.12.18:144][836]LogWorld: Bringing up level for play took: 0.004494
+[2017.07.20-22.12.18:150][836]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 1.019
+[2017.07.20-22.12.18:158][836]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.12.18:160][836]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002522BEE7620
+[2017.07.20-22.12.19:812][961]OCULUS: Error: WaitableTimer slept too long/short (i.e. 3.438801 ms)
+[2017.07.20-22.12.20:944][ 45]LogHMD: Destroying ovr session
+[2017.07.20-22.12.20:944][ 45]LogHMD: Freeing textureSet 0x000002522BEE7620
+[2017.07.20-22.12.43:176][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.12.43:180][146]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.12.43:180][146]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.12.43:180][146]LogHMD: New ovr session is created
+[2017.07.20-22.12.43:180][146]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.12.43:180][146]PIE: New page: PIE session: Prototype (21 Jul 2017 00:12:43)
+[2017.07.20-22.12.43:180][146]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.12.43:207][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027461s)
+[2017.07.20-22.12.43:208][146]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.12.43:208][146]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.07.20-22.12.43:208][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.028320s)
+[2017.07.20-22.12.43:244][146]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.12.43:255][146]LogInit: FAudioDevice initialized.
+[2017.07.20-22.12.43:345][146]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.12.43:345][146]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.12.43:349][146]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.12.43
+[2017.07.20-22.12.43:350][146]LogWorld: Bringing up level for play took: 0.003448
+[2017.07.20-22.12.43:356][146]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.224
+[2017.07.20-22.12.43:366][146]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.12.43:368][146]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002522BEE6AC0
+[2017.07.20-22.12.49:759][627]LogHMD: Destroying ovr session
+[2017.07.20-22.12.49:759][627]LogHMD: Freeing textureSet 0x000002522BEE6AC0
+[2017.07.20-22.12.54:521][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.12.54:529][171]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.12.54:529][171]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.12.54:529][171]LogHMD: New ovr session is created
+[2017.07.20-22.12.54:529][171]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.12.54:529][171]PIE: New page: PIE session: Prototype (21 Jul 2017 00:12:54)
+[2017.07.20-22.12.54:529][171]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.12.54:556][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027186s)
+[2017.07.20-22.12.54:557][171]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.12.54:557][171]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.07.20-22.12.54:557][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.027926s)
+[2017.07.20-22.12.54:593][171]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.12.54:603][171]LogInit: FAudioDevice initialized.
+[2017.07.20-22.12.54:694][171]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.12.54:694][171]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.12.54:698][171]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.12.54
+[2017.07.20-22.12.54:698][171]LogWorld: Bringing up level for play took: 0.003306
+[2017.07.20-22.12.54:703][171]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.428
+[2017.07.20-22.12.54:713][171]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.12.54:715][171]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002522BEE6BA0
+[2017.07.20-22.12.56:652][317]LogHMD: Destroying ovr session
+[2017.07.20-22.12.56:652][317]LogHMD: Freeing textureSet 0x000002522BEE6BA0
+[2017.07.20-22.12.58:004][454]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.58:004][454]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.07.20-22.12.58:197][472]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.58:197][472]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.07.20-22.12.58:374][486]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.58:374][486]LogEditorTransaction: Undo Move Actors
+[2017.07.20-22.12.58:767][531]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.58:767][531]LogEditorTransaction: Undo Move Actors
+[2017.07.20-22.12.59:108][570]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.59:108][570]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.20-22.12.59:489][613]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.59:489][613]LogEditorTransaction: Undo Replace Actor(s)
+[2017.07.20-22.12.59:824][635]Cmd: TRANSACTION UNDO
+[2017.07.20-22.12.59:824][635]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.07.20-22.13.01:233][800]LogTemp: Repeting last play command: VR Preview
+[2017.07.20-22.13.01:244][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-22.13.01:246][800]OCULUS: Debug: [HMDState] Using default profile Scott
+[2017.07.20-22.13.01:246][800]OCULUS: Info: IAD changed to 63.5mm
+[2017.07.20-22.13.01:246][800]LogHMD: New ovr session is created
+[2017.07.20-22.13.01:246][800]LogHMD: HMD Oculus Rift DK2, res = 1920 x 1080
+[2017.07.20-22.13.01:246][800]PIE: New page: PIE session: Prototype (21 Jul 2017 00:13:01)
+[2017.07.20-22.13.01:246][800]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.20-22.13.01:276][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029453s)
+[2017.07.20-22.13.01:276][800]LogAIModule: Creating AISystem for world Prototype
+[2017.07.20-22.13.01:277][800]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.07.20-22.13.01:277][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.030527s)
+[2017.07.20-22.13.01:313][800]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-22.13.01:324][800]LogInit: FAudioDevice initialized.
+[2017.07.20-22.13.01:415][800]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-22.13.01:415][800]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-22.13.01:418][800]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.20-23.13.01
+[2017.07.20-22.13.01:418][800]LogWorld: Bringing up level for play took: 0.003020
+[2017.07.20-22.13.01:425][800]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.293
+[2017.07.20-22.13.01:434][800]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.07.20-22.13.01:436][800]LogHMD: Allocated a new swap texture set (size 2392 x 1472, mipcount = 1, format = RGBA8), 0x000002522BEE7700
+[2017.07.20-22.13.04:159][  5]LogHMD: Destroying ovr session
+[2017.07.20-22.13.04:159][  5]LogHMD: Freeing textureSet 0x000002522BEE7700
+[2017.07.20-22.13.11:889][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.20-22.13.12:226][892]LogSavePackage: Save=315.22ms
+[2017.07.20-22.13.12:226][892]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/PrototypeEFFDC6CC4FA51F818685A8A006D8BA22.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.20-22.13.12:228][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.20-22.13.12:247][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype_BuiltData" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset" SILENT=true
+[2017.07.20-22.13.12:471][892]LogSavePackage: Save=207.87ms
+[2017.07.20-22.13.12:471][892]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype_BuiltData51EF61BD4197473870003D9DEE256C6C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset'
+[2017.07.20-22.13.12:473][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset
+[2017.07.20-22.13.15:103][199]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.20-22.13.15:297][200]Cmd: QUIT_EDITOR
+[2017.07.20-22.13.15:635][200]LogExit: Preparing to exit.
+[2017.07.20-22.13.16:778][200]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' was aborted.
+[2017.07.20-22.13.16:795][200]LogExit: Editor shut down
+[2017.07.20-22.13.16:798][200]LogExit: Transaction tracking system shut down
+[2017.07.20-22.13.16:852][200]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.20-22.13.16:852][200]LogExit: Object subsystem successfully closed.
+[2017.07.20-22.13.16:878][200]LogD3D11RHI: Shutdown
+[2017.07.20-22.13.16:878][200]LogD3D11RHI: CleanupD3DDevice
+[2017.07.20-22.13.16:938][200]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.20-22.13.16:950][200]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.20-22.13.16:950][200]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.20-22.13.16:951][200]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' was aborted.
+[2017.07.20-22.13.16:951][200]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' was aborted.
+[2017.07.20-22.13.16:951][200]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' was aborted.
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.20-22.13.16:951][200]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.20-22.13.17:539][200]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.20-22.13.17:602][200]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.20-22.13.17:603][200]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.20-22.13.17:784][200]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.20-22.13.17:785][200]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.20-22.13.17:886][200]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.20-22.13.17:986][200]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.20-22.13.17:987][200]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.20-22.13.17:988][200]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.20-22.13.17:990][200]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.20-22.13.18:177][200]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.20-22.13.18:177][200]LogDirectoryWatcher: A directory notification for '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/' was aborted.
+[2017.07.20-22.13.18:177][200]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.20-22.13.18:177][200]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.20-22.13.18:180][200]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.20-22.13.18:181][200]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.20-22.13.18:223][200]LogDerivedDataCache: Shutdown
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.20-22.13.18:223][200]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.20-22.13.18:224][200]LogHMD: Oculus shutdown.
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.20-22.13.18:224][200]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.20-22.13.18:224][200]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.20-22.13.18:224][200]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.20-22.13.18:224][200]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B29DABB36-4AF5-8DF7-E7C1-B9A04E72C459%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=d0072156447091a74943ad8261b51e33%7C917b68a4689a43d093714a4f6a0dc761%7C0f6f6edd-16ad-4713-872b-9bf79eb283b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.20-22.13.18:247][200]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.20-22.13.18:248][200]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.20-22.13.18:249][200]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.20-22.13.18:249][200]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.20-22.13.18:249][200]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.20-22.13.18:250][200]LogExit: Exiting.
+[2017.07.20-22.13.18:257][200]Log file closed, 07/20/17 23:13:18
