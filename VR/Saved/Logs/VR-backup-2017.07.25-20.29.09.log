@@ -1,0 +1,1139 @@
+﻿Log file open, 07/25/17 19:50:33
+LogInit:Display: Running engine for game: VR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2110624248) SRandInit(-2110624248).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081245
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.16.0(build = 409268) feature version = 0. Client runs version (prod = 1).1.16.0(build = 409268) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.25-18.50.34:167][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-18.50.34:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.25-18.50.34:175][  0]LogInit: Computer: SCOTTPC
+[2017.07.25-18.50.34:175][  0]LogInit: User: scott
+[2017.07.25-18.50.34:175][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.25-18.50.34:175][  0]LogInit: High frequency timer resolution =3.423906 MHz
+[2017.07.25-18.50.34:175][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.25-18.50.34:175][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.25-18.50.34:175][  0]LogMemory: Process Physical Memory: 277.69 MB used, 277.69 MB peak
+[2017.07.25-18.50.34:175][  0]LogMemory: Process Virtual Memory: 264.01 MB used, 264.01 MB peak
+[2017.07.25-18.50.34:175][  0]LogMemory: Physical Memory: 8424.32 MB used,  7887.58 MB free, 16311.90 MB total
+[2017.07.25-18.50.34:175][  0]LogMemory: Virtual Memory: 676.95 MB used,  7887.58 MB free, 134217728.00 MB total
+[2017.07.25-18.50.34:240][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.25-18.50.34:240][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.25-18.50.34:242][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.25-18.50.35:065][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.25-18.50.35:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.07.25-18.50.35:105][  0]LogD3D11RHI:       8110/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.25-18.50.35:106][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.25-18.50.35:106][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.25-18.50.35:106][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.25-18.50.35:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.25-18.50.35:113][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.25-18.50.35:113][  0]LogWindows: EnumDisplayDevices:
+[2017.07.25-18.50.35:113][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.07.25-18.50.35:113][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.07.25-18.50.35:113][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.25-18.50.35:113][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.25-18.50.35:113][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.25-18.50.35:113][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.07.25-18.50.35:113][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.25-18.50.35:113][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.25-18.50.35:113][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.25-18.50.35:139][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.25-18.50.35:148][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.25-18.50.35:239][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/scott/Documents/GitHub/VR/VR/Intermediate/Shaders/WorkingDirectory/18296/).
+[2017.07.25-18.50.35:239][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scott/AppData/Local/Temp/UnrealShaderWorkingDir/33816EF8410F3FDE271DB1BCD5264E69/'.
+[2017.07.25-18.50.35:239][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.25-18.50.36:206][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.25-18.50.36:253][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.25-18.50.36:299][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.25-18.50.36:345][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.25-18.50.36:391][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.25-18.50.36:436][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.25-18.50.36:480][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.25-18.50.36:525][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.25-18.50.36:566][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.25-18.50.36:609][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.25-18.50.36:657][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.25-18.50.36:701][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.25-18.50.36:747][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.25-18.50.36:790][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.25-18.50.36:834][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.25-18.50.36:921][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.25-18.50.36:921][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.25-18.50.36:955][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.25-18.50.37:046][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.25-18.50.37:072][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.25-18.50.37:117][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.25-18.50.37:162][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.25-18.50.37:205][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.25-18.50.37:249][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.25-18.50.37:249][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.25-18.50.37:694][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.25-18.50.37:780][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-18.50.37:780][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.25-18.50.37:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.25-18.50.37:780][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.25-18.50.37:781][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.25-18.50.37:781][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.25-18.50.37:794][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.25-18.50.37:807][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.25-18.50.37:827][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.25-18.50.37:827][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.25-18.50.37:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-18.50.37:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-18.50.38:115][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-18.50.38:177][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.25-18.50.38:336][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.25-18.50.38:375][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.25-18.50.38:416][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.25-18.50.38:416][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.25-18.50.38:416][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.25-18.50.38:887][  0]LogNetVersion: VR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1895307458)
+[2017.07.25-18.50.38:943][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.07.25-18.50.39:012][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.050066 seconds
+[2017.07.25-18.50.39:017][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.25-18.50.39:017][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.25-18.50.39:017][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.25-18.50.39:078][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.25-18.50.41:116][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.25-18.50.41:150][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.25-18.50.41:623][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.25-18.50.41:986][  0]SourceControl: Info Source control is disabled
+[2017.07.25-18.50.42:081][  0]SourceControl: Info Source control is disabled
+[2017.07.25-18.50.42:125][  0]SourceControl: Info Source control is disabled
+[2017.07.25-18.50.42:166][  0]SourceControl: Info Source control is disabled
+[2017.07.25-18.50.42:740][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.25-18.50.43:251][  0]LogEngine: Initializing Engine...
+[2017.07.25-18.50.49:030][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.07.25-18.50.49:031][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.16.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.07.25-18.50.49:302][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.25-18.50.49:302][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.25-18.50.49:452][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.25-18.50.49:469][  0]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-18.50.49:496][  0]LogInit: FAudioDevice initialized.
+[2017.07.25-18.50.49:550][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-18.50.49:566][  0]LogInit: Texture streaming: Enabled
+[2017.07.25-18.50.49:664][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.25-18.50.49:900][  0]LogInit: Transaction tracking system initialized
+[2017.07.25-18.50.50:250][  0]BlueprintLog: New page: Editor Load
+[2017.07.25-18.50.51:252][  0]LocalizationService: Info Localization service is disabled
+[2017.07.25-18.50.52:213][  0]LogConsoleResponse:Display: 
+[2017.07.25-18.50.52:354][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.25-18.50.52:354][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.25-18.50.52:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' took 0.02s
+[2017.07.25-18.50.53:428][  0]SourceControl: Info Source control is disabled
+[2017.07.25-18.50.53:428][  0]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-18.50.53:429][  0]LightingResults: New page: Lighting Build
+[2017.07.25-18.50.53:475][  0]MapCheck: New page: Map Check
+[2017.07.25-18.50.53:475][  0]LightingResults: New page: Lighting Build
+[2017.07.25-18.50.54:169][  0]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-18.50.54:184][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-18.50.54:202][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-18.50.54:268][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.4ms to complete.
+[2017.07.25-18.50.54:268][  0]LogFileHelpers: Loading map 'Prototype' took 0.840
+[2017.07.25-18.50.54:416][  0]LogCollectionManager: Loaded 0 collections in 0.001369 seconds
+[2017.07.25-18.50.54:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' took 0.01s
+[2017.07.25-18.50.54:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' took 0.01s
+[2017.07.25-18.50.54:505][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' took 0.01s
+[2017.07.25-18.50.54:505][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.25-18.50.54:515][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2329 classes and 491 folders.
+[2017.07.25-18.50.54:581][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.07.25-18.50.54:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.25-18.50.54:664][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.25-18.50.54:704][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.25-18.50.54:709][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-18.50.54:711][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.25-18.50.54:715][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.25-18.50.54:802][  0]LogRenderer: Reallocating scene render targets to support 1616x872 NumSamples 1 (Frame:1).
+[2017.07.25-18.50.54:911][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-18.50.54:978][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.07.25-18.50.54:978][  0]LogLoad: (Engine Initialization) Total time: 22.80 seconds
+[2017.07.25-18.50.54:978][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.07.25-18.50.54:978][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.25-18.50.55:318][  0]LogOcInput: OculusInput pre-init called
+[2017.07.25-18.50.55:329][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.16.0
+[2017.07.25-18.50.55:329][  0]LogHMD: Starting GearVRController plugin
+[2017.07.25-18.50.55:350][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.07.25-18.50.55:657][  1]LogAssetRegistry: Asset discovery search completed in 16.7354 seconds
+[2017.07.25-18.50.55:659][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.25-18.50.55:659][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.07.25-18.51.15:014][ 26]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-18.51.15:023][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-18.51.15:240][ 26]LogSavePackage: Save=198.21ms
+[2017.07.25-18.51.15:240][ 26]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype7A63DA32485156E31C6EDE9BE62A0B3F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.25-18.51.15:243][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.25-18.51.15:283][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype_BuiltData" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset" SILENT=true
+[2017.07.25-18.51.15:685][ 26]LogSavePackage: Save=386.45ms
+[2017.07.25-18.51.15:685][ 26]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype_BuiltDataEC1F017847417850FF5A8F9E07C86A16.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset'
+[2017.07.25-18.51.15:688][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset
+[2017.07.25-18.51.27:734][426]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.25-18.51.27:846][426]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.07.25-18.51.28:157][426]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.25-18.51.28:620][426]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.07.25-18.51.28:771][426]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-18.51.28:825][426]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.25-18.51.28:895][426]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0013 seconds. Added 1 classes and 0 folders.
+[2017.07.25-18.51.28:913][426]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.25-18.51.33:034][807]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.25-18.53.17:105][209]BlueprintLog: New page: Compile ABP_MachineGun
+[2017.07.25-18.53.21:840][681]LogSavePackage: Save=75.10ms
+[2017.07.25-18.53.21:840][681]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/ABP_MachineGun034F91EE46D8BF5A52D38EBBD7C3EF42.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/ABP_MachineGun.uasset'
+[2017.07.25-18.53.21:846][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/ABP_MachineGun.uasset
+[2017.07.25-18.54.31:235][990]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-18.54.31:907][ 20]LogSavePackage: Save=127.65ms
+[2017.07.25-18.54.31:907][ 20]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawn903331454D6C8C7F05819D92A9474F8C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-18.54.31:925][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-18.54.40:075][772]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-18.54.40:567][788]LogSavePackage: Save=125.97ms
+[2017.07.25-18.54.40:567][788]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawnA55720264429FC8D2024AFAB2C883D3C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-18.54.40:569][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-18.54.43:954][113]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.07.25-18.54.44:133][113]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.07.25-18.54.44:362][113]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.25-18.56.11:686][289]BlueprintLog: New page: Compile ABP_MachineGun
+[2017.07.25-18.56.12:237][316]LogSavePackage: Save=70.13ms
+[2017.07.25-18.56.12:237][316]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/ABP_MachineGunA0B95F5843D71E724E790FB987B228B6.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/ABP_MachineGun.uasset'
+[2017.07.25-18.56.12:242][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/ABP_MachineGun.uasset
+[2017.07.25-18.56.14:516][531]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-18.56.14:570][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-18.56.14:571][531]PIE: New page: PIE session: Prototype (25 Jul 2017 20:56:14)
+[2017.07.25-18.56.14:571][531]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-18.56.14:580][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009201s)
+[2017.07.25-18.56.14:581][531]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-18.56.14:581][531]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.07.25-18.56.14:581][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.010172s)
+[2017.07.25-18.56.14:627][531]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-18.56.14:642][531]LogInit: FAudioDevice initialized.
+[2017.07.25-18.56.14:690][531]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-18.56.14:690][531]LogLoad: Game class is 'GameModeBase'
+[2017.07.25-18.56.14:696][531]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-19.56.14
+[2017.07.25-18.56.14:697][531]LogWorld: Bringing up level for play took: 0.005894
+[2017.07.25-18.56.14:740][531]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.07.25-18.56.14:745][531]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.256
+[2017.07.25-18.57.04:424][477]LogRenderer: Reallocating scene render targets to support 1616x1260 NumSamples 1 (Frame:1).
+[2017.07.25-18.57.16:596][498]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-18.57.17:190][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-18.57.17:215][533]LogSavePackage: Save=15.08ms
+[2017.07.25-18.57.17:215][533]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun58DDB33649DDEEF3BF26BD9527C19372.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-18.57.17:220][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-18.57.19:663][761]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-18.57.19:681][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-18.57.19:681][761]PIE: New page: PIE session: Prototype (25 Jul 2017 20:57:19)
+[2017.07.25-18.57.19:681][761]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-18.57.19:690][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008508s)
+[2017.07.25-18.57.19:690][761]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-18.57.19:690][761]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.07.25-18.57.19:691][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009391s)
+[2017.07.25-18.57.19:744][761]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-18.57.19:758][761]LogInit: FAudioDevice initialized.
+[2017.07.25-18.57.19:793][761]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-18.57.19:793][761]LogLoad: Game class is 'GameModeBase'
+[2017.07.25-18.57.19:799][761]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-19.57.19
+[2017.07.25-18.57.19:799][761]LogWorld: Bringing up level for play took: 0.005401
+[2017.07.25-18.57.19:802][761]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.801
+[2017.07.25-18.58.30:589][499]LogEditorTransaction: Undo Make New Scene Root
+[2017.07.25-18.58.30:607][499]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-18.59.05:685][306]LogEditorTransaction: Undo Set actor scale
+[2017.07.25-18.59.23:310][693]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-18.59.24:275][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-18.59.24:301][738]LogSavePackage: Save=16.85ms
+[2017.07.25-18.59.24:301][738]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun89CD937E4A26DDB45C5B9094541831DA.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-18.59.24:306][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-18.59.27:941][104]LogEditorViewport: Clicking on Actor (LMB): BP_MachineGun_C (BP_MachineGun)
+[2017.07.25-18.59.29:700][283]Cmd: TRANSACTION UNDO
+[2017.07.25-18.59.29:700][283]LogEditorTransaction: Undo Move Actors
+[2017.07.25-18.59.31:730][514]Cmd: TRANSACTION UNDO
+[2017.07.25-18.59.31:730][514]LogEditorTransaction: Undo Rotate Actors
+[2017.07.25-18.59.46:717][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-18.59.46:743][886]LogSavePackage: Save=18.65ms
+[2017.07.25-18.59.46:743][886]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun7D4AFE8A41B0EDBE287A128E9BA0C578.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-18.59.46:748][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-19.00.06:618][549]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.01.35:634][372]LogActorFactory: Actor Factory created Sphere
+[2017.07.25-19.01.36:249][438]LogActorFactory: Actor Factory created Sphere
+[2017.07.25-19.02.23:764][775]BlueprintLog: New page: Compile Projectile
+[2017.07.25-19.02.24:874][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Projectiles/Projectile" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset" SILENT=true
+[2017.07.25-19.02.24:891][837]LogSavePackage: Save=14.23ms
+[2017.07.25-19.02.24:892][837]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Projectile0A4B15144CEC1768E58922A3A7430BCD.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset'
+[2017.07.25-19.02.24:897][837]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset
+[2017.07.25-19.02.30:817][185]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2017.07.25-19.02.30:817][185]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2017.07.25-19.02.56:866][500]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.04.07:308][777]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.04.21:804][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.25-19.04.22:819][153]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.04.22:835][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.04.22:835][153]PIE: New page: PIE session: Prototype (25 Jul 2017 21:04:22)
+[2017.07.25-19.04.22:836][153]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.04.22:845][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009479s)
+[2017.07.25-19.04.22:845][153]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.04.22:846][153]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.07.25-19.04.22:846][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.010299s)
+[2017.07.25-19.04.22:868][153]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.04.22:884][153]LogInit: FAudioDevice initialized.
+[2017.07.25-19.04.22:917][153]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-19.04.22:917][153]LogLoad: Game class is 'GameModeBase'
+[2017.07.25-19.04.22:923][153]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.04.22
+[2017.07.25-19.04.22:923][153]LogWorld: Bringing up level for play took: 0.005025
+[2017.07.25-19.04.22:926][153]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.076
+[2017.07.25-19.04.33:789][442]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.33:789][442]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.36:520][757]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.36:520][757]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.43:045][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.43:045][527]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.04.44:083][645]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.04.50:647][407]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_GroundMounds_09)
+[2017.07.25-19.04.52:293][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.04.52:293][549]PIE: New page: PIE session: Prototype (25 Jul 2017 21:04:52)
+[2017.07.25-19.04.52:293][549]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.04.52:301][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007634s)
+[2017.07.25-19.04.52:301][549]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.04.52:302][549]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2017.07.25-19.04.52:302][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.008387s)
+[2017.07.25-19.04.52:323][549]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.04.52:337][549]LogInit: FAudioDevice initialized.
+[2017.07.25-19.04.52:369][549]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-19.04.52:369][549]LogLoad: Game class is 'GameModeBase'
+[2017.07.25-19.04.52:374][549]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.04.52
+[2017.07.25-19.04.52:375][549]LogWorld: Bringing up level for play took: 0.005341
+[2017.07.25-19.04.52:377][549]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.623
+[2017.07.25-19.05.07:800][176]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.05.07:812][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.05.07:813][176]PIE: New page: PIE session: Prototype (25 Jul 2017 21:05:07)
+[2017.07.25-19.05.07:813][176]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.05.07:822][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008980s)
+[2017.07.25-19.05.07:822][176]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.05.07:822][176]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.07.25-19.05.07:822][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009752s)
+[2017.07.25-19.05.07:841][176]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.05.07:856][176]LogInit: FAudioDevice initialized.
+[2017.07.25-19.05.07:884][176]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-19.05.07:884][176]LogLoad: Game class is 'GameModeBase'
+[2017.07.25-19.05.07:890][176]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.05.07
+[2017.07.25-19.05.07:890][176]LogWorld: Bringing up level for play took: 0.005219
+[2017.07.25-19.05.07:893][176]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.892
+[2017.07.25-19.05.19:816][463]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.25-19.05.19:976][473]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VR
+[2017.07.25-19.05.19:976][473]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.25-19.05.19:976][473]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.25-19.05.19:976][473]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.25-19.05.19:976][473]LogTemp: BranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.25-19.05.19:989][474]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\scott\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.25-19.05.47:499][473]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.05.47:499][473]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.05.48:790][599]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.05.48:790][599]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.07.25-19.05.49:529][669]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.06.10:773][954]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.06.10:787][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.06.10:787][954]PIE: New page: PIE session: Prototype (25 Jul 2017 21:06:10)
+[2017.07.25-19.06.10:788][954]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.06.10:796][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008768s)
+[2017.07.25-19.06.10:797][954]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.06.10:797][954]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.07.25-19.06.10:797][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009570s)
+[2017.07.25-19.06.10:821][954]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.06.10:836][954]LogInit: FAudioDevice initialized.
+[2017.07.25-19.06.10:871][954]LogLoad: Game class is 'FunctionalTestGameMode'
+[2017.07.25-19.06.10:877][954]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.06.10
+[2017.07.25-19.06.10:878][954]LogWorld: Bringing up level for play took: 0.005842
+[2017.07.25-19.06.10:880][954]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.12
+[2017.07.25-19.06.50:642][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-19.06.50:862][160]LogSavePackage: Save=194.13ms
+[2017.07.25-19.06.50:862][160]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype5FF433B4448922A640849EA3D23C2F64.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.25-19.06.50:867][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.25-19.06.50:890][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype_BuiltData" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset" SILENT=true
+[2017.07.25-19.06.51:194][160]LogSavePackage: Save=286.12ms
+[2017.07.25-19.06.51:194][160]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype_BuiltDataDBF3E2B94B50AD38B59CE89463A67C5F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset'
+[2017.07.25-19.06.51:197][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset
+[2017.07.25-19.06.54:745][553]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.07.25-19.06.56:208][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-19.06.56:238][553]LogSavePackage: Save=20.18ms
+[2017.07.25-19.06.56:238][553]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun4E46FDAD4491C1D2CF1EBFA83D208F68.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-19.06.56:243][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-19.06.56:244][553]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.06.56:244][553]LightingResults: New page: Lighting Build
+[2017.07.25-19.06.56:245][553]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.07.25-19.06.56:247][553]MapCheck: New page: Map Check
+[2017.07.25-19.06.56:247][553]LightingResults: New page: Lighting Build
+[2017.07.25-19.06.56:326][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.06.56:368][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.06.56:434][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.561ms to complete.
+[2017.07.25-19.06.56:435][553]LogFileHelpers: Loading map 'MotionControllerMap' took 0.192
+[2017.07.25-19.07.04:194][451]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.07.36:444][249]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2017.07.25-19.07.36:470][249]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.07.36:470][249]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.36:470][249]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
+[2017.07.25-19.07.36:471][249]MapCheck: New page: Map Check
+[2017.07.25-19.07.36:471][249]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.36:552][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.07.36:585][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.07.36:651][249]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.57ms to complete.
+[2017.07.25-19.07.36:652][249]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.183
+[2017.07.25-19.07.37:960][390]LogAIModule: Creating AISystem for world StartupMap
+[2017.07.25-19.07.37:982][390]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.07.37:982][390]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.37:982][390]LoadErrors: New page: Loading map: StartupMap.umap
+[2017.07.25-19.07.37:983][390]MapCheck: New page: Map Check
+[2017.07.25-19.07.37:983][390]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.38:074][390]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.07.38:109][390]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.07.38:172][390]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.805ms to complete.
+[2017.07.25-19.07.38:174][390]LogFileHelpers: Loading map 'StartupMap' took 0.193
+[2017.07.25-19.07.43:227][954]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.07.46:733][334]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2017.07.25-19.07.46:753][334]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.07.46:753][334]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.46:753][334]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
+[2017.07.25-19.07.46:754][334]MapCheck: New page: Map Check
+[2017.07.25-19.07.46:754][334]LightingResults: New page: Lighting Build
+[2017.07.25-19.07.46:865][334]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.07.46:897][334]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.07.46:964][334]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.397ms to complete.
+[2017.07.25-19.07.46:965][334]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.214
+[2017.07.25-19.08.33:656][686]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.08.33:678][686]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.08.33:678][686]LightingResults: New page: Lighting Build
+[2017.07.25-19.08.33:679][686]LoadErrors: New page: Loading map: Prototype.umap
+[2017.07.25-19.08.33:680][686]MapCheck: New page: Map Check
+[2017.07.25-19.08.33:680][686]LightingResults: New page: Lighting Build
+[2017.07.25-19.08.33:871][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.08.33:911][686]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.08.33:976][686]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.736ms to complete.
+[2017.07.25-19.08.33:976][686]LogFileHelpers: Loading map 'Prototype' took 0.299
+[2017.07.25-19.08.39:345][319]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.07.25-19.09.21:701][789]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.09.44:501][846]Cmd: TRANSACTION UNDO
+[2017.07.25-19.09.44:501][846]LogEditorTransaction: Undo Edit Default Pawn Class
+[2017.07.25-19.10.01:281][457]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.10.01:300][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.10.01:300][457]PIE: New page: PIE session: Prototype (25 Jul 2017 21:10:01)
+[2017.07.25-19.10.01:300][457]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.10.01:308][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008320s)
+[2017.07.25-19.10.01:309][457]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.10.01:309][457]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2017.07.25-19.10.01:309][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009041s)
+[2017.07.25-19.10.01:362][457]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.10.01:378][457]LogInit: FAudioDevice initialized.
+[2017.07.25-19.10.01:411][457]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.10.01:417][457]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.10.01
+[2017.07.25-19.10.01:417][457]LogWorld: Bringing up level for play took: 0.005160
+[2017.07.25-19.10.01:419][457]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.418
+[2017.07.25-19.10.13:763][882]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.07.25-19.10.19:749][519]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.10.19:762][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.10.19:762][519]PIE: New page: PIE session: Prototype (25 Jul 2017 21:10:19)
+[2017.07.25-19.10.19:762][519]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.10.19:771][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008913s)
+[2017.07.25-19.10.19:772][519]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.10.19:772][519]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2017.07.25-19.10.19:772][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009686s)
+[2017.07.25-19.10.19:818][519]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.10.19:832][519]LogInit: FAudioDevice initialized.
+[2017.07.25-19.10.19:866][519]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.10.19:872][519]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.10.19
+[2017.07.25-19.10.19:873][519]LogWorld: Bringing up level for play took: 0.005482
+[2017.07.25-19.10.19:875][519]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.874
+[2017.07.25-19.10.22:207][782]Cmd: TRANSACTION UNDO
+[2017.07.25-19.10.22:207][782]LogEditorTransaction: Undo Rotate Actors
+[2017.07.25-19.11.17:525][900]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.11.17:538][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.11.17:538][900]PIE: New page: PIE session: Prototype (25 Jul 2017 21:11:17)
+[2017.07.25-19.11.17:538][900]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.11.17:546][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007826s)
+[2017.07.25-19.11.17:546][900]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.11.17:546][900]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.07.25-19.11.17:547][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.008615s)
+[2017.07.25-19.11.17:595][900]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.11.17:609][900]LogInit: FAudioDevice initialized.
+[2017.07.25-19.11.17:644][900]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.11.17:650][900]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.11.17
+[2017.07.25-19.11.17:651][900]LogWorld: Bringing up level for play took: 0.005533
+[2017.07.25-19.11.17:653][900]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.652
+[2017.07.25-19.11.31:688][545]LogEditorViewport: Clicking on Actor (LMB): Projectile_C (Projectile)
+[2017.07.25-19.11.32:946][686]Cmd: DELETE
+[2017.07.25-19.11.32:946][686]Cmd: ACTOR DELETE
+[2017.07.25-19.11.32:949][686]LogEditorActor: Deleted Actor: Projectile_C
+[2017.07.25-19.11.32:962][686]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.07.25-19.11.35:443][966]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.11.35:457][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.11.35:457][966]PIE: New page: PIE session: Prototype (25 Jul 2017 21:11:35)
+[2017.07.25-19.11.35:457][966]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.11.35:466][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008964s)
+[2017.07.25-19.11.35:466][966]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.11.35:466][966]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.07.25-19.11.35:466][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009701s)
+[2017.07.25-19.11.35:485][966]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.11.35:499][966]LogInit: FAudioDevice initialized.
+[2017.07.25-19.11.35:528][966]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.11.35:534][966]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.11.35
+[2017.07.25-19.11.35:535][966]LogWorld: Bringing up level for play took: 0.005355
+[2017.07.25-19.11.35:537][966]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.536
+[2017.07.25-19.12.21:676][307]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-19.12.22:326][318]LogSavePackage: Save=128.37ms
+[2017.07.25-19.12.22:326][318]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawn04018F48456FA542D0081BA09218B994.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-19.12.22:332][318]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-19.12.26:548][580]LogEditorActor: Deleted Actor: BP_MachineGun_C
+[2017.07.25-19.12.26:567][580]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.07.25-19.12.28:565][760]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.07.25-19.12.41:154][602]LogSavePackage: Save=128.45ms
+[2017.07.25-19.12.41:154][602]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawnF7EB982147A3BB5E755742B1933B6556.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-19.12.41:159][602]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-19.12.41:475][627]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-19.12.42:424][673]LogSavePackage: Save=129.07ms
+[2017.07.25-19.12.42:424][673]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawn1AF3551D490B30CD0651468EBCF9EDFF.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-19.12.42:427][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-19.12.44:633][892]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.12.44:646][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.12.44:646][892]PIE: New page: PIE session: Prototype (25 Jul 2017 21:12:44)
+[2017.07.25-19.12.44:646][892]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.12.44:654][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008414s)
+[2017.07.25-19.12.44:655][892]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.12.44:655][892]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.07.25-19.12.44:655][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009271s)
+[2017.07.25-19.12.44:677][892]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.12.44:691][892]LogInit: FAudioDevice initialized.
+[2017.07.25-19.12.44:723][892]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.12.44:730][892]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.12.44
+[2017.07.25-19.12.44:730][892]LogWorld: Bringing up level for play took: 0.006459
+[2017.07.25-19.12.44:733][892]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.268
+[2017.07.25-19.13.07:243][264]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.13.07:259][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.13.07:259][264]PIE: New page: PIE session: Prototype (25 Jul 2017 21:13:07)
+[2017.07.25-19.13.07:259][264]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.13.07:268][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008805s)
+[2017.07.25-19.13.07:268][264]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.13.07:269][264]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.07.25-19.13.07:269][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009659s)
+[2017.07.25-19.13.07:290][264]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.13.07:305][264]LogInit: FAudioDevice initialized.
+[2017.07.25-19.13.07:336][264]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.13.07:341][264]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.13.07
+[2017.07.25-19.13.07:342][264]LogWorld: Bringing up level for play took: 0.005199
+[2017.07.25-19.13.07:344][264]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.343
+[2017.07.25-19.14.30:100][260]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.25-19.14.30:181][265]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VR
+[2017.07.25-19.14.30:181][265]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.25-19.14.30:181][265]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.25-19.14.30:181][265]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.25-19.14.30:181][265]LogTemp: BranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = SCOTTPC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.25-19.14.30:190][266]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\scott\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.25-19.16.28:024][ 15]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.16.28:119][ 15]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_8.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.16.28:709][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-19.16.28:743][ 76]LogSavePackage: Save=23.06ms
+[2017.07.25-19.16.28:743][ 76]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun2D0C19744D804B3F35DFAA8FEDB93146.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-19.16.28:748][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-19.16.30:043][215]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.16.30:060][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.16.30:060][215]PIE: New page: PIE session: Prototype (25 Jul 2017 21:16:30)
+[2017.07.25-19.16.30:060][215]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.16.30:069][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008340s)
+[2017.07.25-19.16.30:069][215]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.16.30:069][215]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.07.25-19.16.30:069][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009119s)
+[2017.07.25-19.16.30:098][215]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.16.30:114][215]LogInit: FAudioDevice initialized.
+[2017.07.25-19.16.30:145][215]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.16.30:151][215]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.16.30
+[2017.07.25-19.16.30:151][215]LogWorld: Bringing up level for play took: 0.005158
+[2017.07.25-19.16.30:154][215]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype -0.847
+[2017.07.25-19.16.47:582][ 13]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.16.47:595][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.16.47:595][ 13]PIE: New page: PIE session: Prototype (25 Jul 2017 21:16:47)
+[2017.07.25-19.16.47:595][ 13]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.16.47:604][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008970s)
+[2017.07.25-19.16.47:604][ 13]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.16.47:605][ 13]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.07.25-19.16.47:605][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009876s)
+[2017.07.25-19.16.47:627][ 13]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.16.47:641][ 13]LogInit: FAudioDevice initialized.
+[2017.07.25-19.16.47:671][ 13]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.16.47:677][ 13]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.16.47
+[2017.07.25-19.16.47:678][ 13]LogWorld: Bringing up level for play took: 0.005837
+[2017.07.25-19.16.47:680][ 13]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.68
+[2017.07.25-19.16.55:707][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.16.55:721][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.16.55:721][717]PIE: New page: PIE session: Prototype (25 Jul 2017 21:16:55)
+[2017.07.25-19.16.55:721][717]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.16.55:731][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009448s)
+[2017.07.25-19.16.55:731][717]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.16.55:731][717]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.07.25-19.16.55:731][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.010424s)
+[2017.07.25-19.16.55:756][717]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.16.55:770][717]LogInit: FAudioDevice initialized.
+[2017.07.25-19.16.55:799][717]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.16.55:806][717]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.16.55
+[2017.07.25-19.16.55:807][717]LogWorld: Bringing up level for play took: 0.006312
+[2017.07.25-19.16.55:809][717]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.808
+[2017.07.25-19.18.24:098][617]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.18.34:828][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.25-19.18.49:795][380]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.18.49:812][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.18.49:813][380]PIE: New page: PIE session: Prototype (25 Jul 2017 21:18:49)
+[2017.07.25-19.18.49:813][380]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.18.49:824][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011521s)
+[2017.07.25-19.18.49:825][380]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.18.49:825][380]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2017.07.25-19.18.49:825][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.012694s)
+[2017.07.25-19.18.49:853][380]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.18.49:867][380]LogInit: FAudioDevice initialized.
+[2017.07.25-19.18.49:895][380]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.18.49:901][380]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.18.49
+[2017.07.25-19.18.49:901][380]LogWorld: Bringing up level for play took: 0.005409
+[2017.07.25-19.18.49:903][380]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.902
+[2017.07.25-19.18.59:505][201]LogEditorActor: Deleted Actor: BP_MachineGun_C
+[2017.07.25-19.18.59:519][201]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.07.25-19.20.06:583][ 24]LogSavePackage: Save=191.14ms
+[2017.07.25-19.20.06:583][ 24]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype_Auto180134A8645D8E1E48063F8A87C5223DC.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scenes/Prototype_Auto1.umap'
+[2017.07.25-19.20.06:586][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scenes/Prototype_Auto1.umap
+[2017.07.25-19.20.06:589][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/Prototype' took 0.230
+[2017.07.25-19.20.06:589][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2017.07.25-19.20.06:592][ 24]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripting/Game_Modes/VR_GameMode] ([1] browsable assets)...
+[2017.07.25-19.20.06:592][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripting/Game_Modes/VR_GameMode]
+[2017.07.25-19.20.06:603][ 24]LogSavePackage: Save=8.34ms
+[2017.07.25-19.20.06:603][ 24]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/VR_GameMode_Auto1B6FF517947B924BF9517B4B3DC1CCC8F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scripting/Game_Modes/VR_GameMode_Auto1.uasset'
+[2017.07.25-19.20.06:606][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scripting/Game_Modes/VR_GameMode_Auto1.uasset
+[2017.07.25-19.20.06:608][ 24]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Scripting/Weapons/BP_MachineGun] ([1] browsable assets)...
+[2017.07.25-19.20.06:617][ 24]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun]
+[2017.07.25-19.20.06:617][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripting/Weapons/BP_MachineGun]
+[2017.07.25-19.20.06:643][ 24]LogSavePackage: Save=19.99ms
+[2017.07.25-19.20.06:643][ 24]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun_Auto1F2C3D06A4954795B0BD7A5A17F80AF7B.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scripting/Weapons/BP_MachineGun_Auto1.uasset'
+[2017.07.25-19.20.06:646][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Scripting/Weapons/BP_MachineGun_Auto1.uasset
+[2017.07.25-19.20.06:646][ 24]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.07.25-19.20.48:834][691]LogEditorTransaction: Undo Add Node
+[2017.07.25-19.20.48:838][691]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_353.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.20.58:948][647]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_355.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.21.20:047][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-19.21.20:077][919]LogSavePackage: Save=21.96ms
+[2017.07.25-19.21.20:077][919]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun7467BFF74C7E3C41B68FCAADE0A1AE4E.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-19.21.20:084][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-19.21.20:434][955]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.21.20:525][955]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_8.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.22.09:888][838]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.22.10:167][838]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_6.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.22.10:503][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Weapons/BP_MachineGun" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset" SILENT=true
+[2017.07.25-19.22.10:529][874]LogSavePackage: Save=15.25ms
+[2017.07.25-19.22.10:529][874]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/BP_MachineGun60C8CBFE4316970AD0EA079CC11CA779.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset'
+[2017.07.25-19.22.10:535][874]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Weapons/BP_MachineGun.uasset
+[2017.07.25-19.22.25:558][360]LogBlueprint:Warning: [MotionControllerPawn] 'GunPoint' variable not found. Base class was probably changed.
+[2017.07.25-19.22.27:574][529]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-19.22.27:610][529]LogBlueprint:Warning: [Compiler MotionControllerPawn] Warning Could not find a variable named "GunPoint" in 'MotionControllerPawn_C'.
+Make sure 'MotionControllerPawn_C' has been compiled for  Get GunPoint
+[2017.07.25-19.22.27:614][529]LogBlueprint:Error: [Compiler MotionControllerPawn] Error The property associated with  Gun Point  could not be found
+[2017.07.25-19.22.27:787][529]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GunPoint" in 'MotionControllerPawn_C'.
+Make sure 'MotionControllerPawn_C' has been compiled for  Get GunPoint
+[2017.07.25-19.22.27:787][529]BlueprintEditorCompileResults:Error: Error The property associated with  Gun Point  could not be found
+[2017.07.25-19.22.27:787][529]LogBlueprint:Warning: [Compiler MotionControllerPawn] Warning [1915.61] Compile of MotionControllerPawn failed. 1 Fatal Issue(s) 1 Warning(s) [in 213 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.07.25-19.22.28:210][548]LogSavePackage: Save=122.39ms
+[2017.07.25-19.22.28:210][548]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawn6BBF03B84A5589100B499D908FBC4B03.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-19.22.28:214][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-19.22.46:478][ 50]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.07.25-19.22.47:092][ 76]LogSavePackage: Save=132.52ms
+[2017.07.25-19.22.47:092][ 76]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/MotionControllerPawn582CE6BD41896502C1FB4B80C55E01AC.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.07.25-19.22.47:098][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.07.25-19.22.49:568][324]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.22.49:584][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.22.49:584][324]PIE: New page: PIE session: Prototype (25 Jul 2017 21:22:49)
+[2017.07.25-19.22.49:584][324]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.25-19.22.49:593][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008812s)
+[2017.07.25-19.22.49:593][324]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.22.49:593][324]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2017.07.25-19.22.49:593][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.009665s)
+[2017.07.25-19.22.49:617][324]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-19.22.49:635][324]LogInit: FAudioDevice initialized.
+[2017.07.25-19.22.49:670][324]LogLoad: Game class is 'VR_GameMode_C'
+[2017.07.25-19.22.49:676][324]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.25-20.22.49
+[2017.07.25-19.22.49:677][324]LogWorld: Bringing up level for play took: 0.005456
+[2017.07.25-19.22.49:679][324]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.678
+[2017.07.25-19.23.14:541][623]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:541][623]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:575][625]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:575][625]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:593][626]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:593][626]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:610][627]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:610][627]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:629][628]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:629][628]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:647][629]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:647][629]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:665][630]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:665][630]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:683][631]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:683][631]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:701][632]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:701][632]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:720][633]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:720][633]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:737][634]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:737][634]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:753][635]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:753][635]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:787][637]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:787][637]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:824][639]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:824][639]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:862][641]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:862][641]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:879][642]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.14:879][642]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:636][816]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:636][816]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:654][817]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:654][817]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:671][818]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:671][818]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:689][819]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:689][819]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:706][820]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:706][820]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:723][821]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:723][821]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:740][822]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:740][822]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:757][823]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:757][823]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:774][824]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:774][824]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:792][825]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:793][825]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:810][826]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:810][826]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:828][827]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:828][827]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:847][828]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:847][828]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:865][829]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:865][829]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:883][830]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:883][830]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:901][831]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:901][831]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:919][832]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:919][832]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:936][833]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:936][833]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:954][834]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:954][834]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:971][835]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:971][835]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:988][836]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.17:988][836]PIE:Warning: Warning Mobility of Projectile_C_1 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:919][145]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:919][145]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:937][146]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:937][146]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:955][147]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:955][147]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:973][148]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:973][148]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:991][149]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.21:991][149]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:013][150]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:013][150]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:031][151]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:031][151]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:051][152]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:051][152]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:069][153]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:069][153]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:087][154]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.22:087][154]PIE:Warning: Warning Mobility of Projectile_C_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.07.25-19.23.44:594][534]BlueprintLog: New page: Compile Projectile
+[2017.07.25-19.23.45:115][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Projectiles/Projectile" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset" SILENT=true
+[2017.07.25-19.23.45:144][558]LogSavePackage: Save=15.09ms
+[2017.07.25-19.23.45:144][558]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Projectile3ABD549D49E6D275636321A8A8E9AF0C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset'
+[2017.07.25-19.23.45:149][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Projectiles/Projectile.uasset
+[2017.07.25-19.25.26:568][783]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.25.38:841][ 29]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun from Actor to MotionControllerPawn_C...
+[2017.07.25-19.25.38:846][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_13.SK_MachineGunn) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.25.38:849][ 29]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.25.38:920][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_32:PersistentLevel.BP_MachineGun_C_14.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.38:983][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Game/Scenes/Prototype.Prototype:PersistentLevel.BP_MachineGun_GEN_VARIABLE_BP_MachineGun_C_CAT_4.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:052][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_5.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:116][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_32:PersistentLevel.BP_MachineGun_C_14.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:118][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Game/Scenes/Prototype.Prototype:PersistentLevel.BP_MachineGun_GEN_VARIABLE_BP_MachineGun_C_CAT_7.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:119][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.25.39:119][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_5.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:120][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_18.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:137][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_32:PersistentLevel.BP_MachineGun_C_14.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:138][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_5.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:139][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Game/Scenes/Prototype.Prototype:PersistentLevel.BP_MachineGun_GEN_VARIABLE_BP_MachineGun_C_CAT_9.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.39:140][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_8.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.25.39:140][ 29]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_18.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.25.45:683][681]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.26.14:842][950]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun from MotionControllerPawn_C to Character...
+[2017.07.25-19.26.14:844][950]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_32:PersistentLevel.BP_MachineGun_C_14.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.26.14:845][950]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_5.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.26.14:846][950]LogChildActorComponent:Error: Found cycle in child actor component '/Game/Scenes/Prototype.Prototype:PersistentLevel.BP_MachineGun_GEN_VARIABLE_BP_MachineGun_C_CAT_11.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.26.14:847][950]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_10.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.26.14:847][950]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_0:PersistentLevel.BP_MachineGun_C_18.BP_MachineGun'.  Not spawning Actor of class 'BP_MachineGun_C' to break.
+[2017.07.25-19.26.14:851][950]BlueprintLog: New page: Compile BP_MachineGun
+[2017.07.25-19.26.14:854][950]LogBlueprint:Warning: ValidateTemplates '/Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'DefaultSceneRoot' from '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C'
+[2017.07.25-19.26.14:854][950]LogBlueprint:Warning: ValidateTemplates '/Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'BP_MachineGun' from '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C'
+[2017.07.25-19.26.14:854][950]LogBlueprint:Warning: ValidateTemplates '/Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'Camera' from '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C'
+[2017.07.25-19.26.14:854][950]LogBlueprint:Warning: ValidateTemplates '/Game/Scripting/Weapons/BP_MachineGun.BP_MachineGun_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'VROrigin' from '/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn_C'
+[2017.07.25-19.26.14:855][950]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'SK_MachineGunn' in BlueprintGeneratedClass 'BP_MachineGun_C' (it may have been removed)
+[2017.07.25-19.26.15:202][950]LogActorComponent: RegisterComponentWithWorld: (/Game/Scenes/Prototype.Prototype:PersistentLevel.DESTROYED_BP_MachineGun_C_CHILDACTOR_6.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-19.26.29:183][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-19.26.29:420][962]LogSavePackage: Save=209.28ms
+[2017.07.25-19.26.29:421][962]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype867DC5D44FB2459C322E99B883FCD19F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.25-19.26.29:426][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.25-19.26.29:449][962]LogFileHelpers: Saving map 'Prototype' took 0.336
+[2017.07.25-19.26.29:456][962]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-19.26.29:475][962]LightingResults: New page: Lighting Build
+[2017.07.25-19.26.29:476][962]LoadErrors: New page: Loading map: Prototype.umap
+[2017.07.25-19.26.29:480][962]MapCheck: New page: Map Check
+[2017.07.25-19.26.29:480][962]LightingResults: New page: Lighting Build
+[2017.07.25-19.26.29:554][962]LogAIModule: Creating AISystem for world Prototype
+[2017.07.25-19.26.29:813][962]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-19.26.29:853][962]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-19.26.29:921][962]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.679ms to complete.
+[2017.07.25-19.26.29:921][962]LogFileHelpers: Loading map 'Prototype' took 0.466
+[2017.07.25-19.26.36:951][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scripting/Game_Modes/VR_GameMode" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Game_Modes/VR_GameMode.uasset" SILENT=true
+[2017.07.25-19.26.36:963][122]LogSavePackage: Save=8.91ms
+[2017.07.25-19.26.36:963][122]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/VR_GameMode9C6B57A74314853FC41F40AAFE3FE4C7.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Game_Modes/VR_GameMode.uasset'
+[2017.07.25-19.26.36:969][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scripting/Game_Modes/VR_GameMode.uasset
+[2017.07.25-19.26.37:038][122]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.25-19.26.37:274][123]Cmd: QUIT_EDITOR
+[2017.07.25-19.26.37:402][123]LogExit: Preparing to exit.
+[2017.07.25-19.26.37:982][123]LogDirectoryWatcher: A directory notification failed for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/', and we were unable to create a new request.
+[2017.07.25-19.26.38:074][123]LogExit: Editor shut down
+[2017.07.25-19.26.38:096][123]LogExit: Transaction tracking system shut down
+[2017.07.25-19.26.38:247][123]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.25-19.26.38:247][123]LogExit: Object subsystem successfully closed.
+[2017.07.25-19.26.38:275][123]LogD3D11RHI: Shutdown
+[2017.07.25-19.26.38:275][123]LogD3D11RHI: CleanupD3DDevice
+[2017.07.25-19.26.38:378][123]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module SkeletonEditor (528)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (526)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.25-19.26.38:399][123]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.25-19.26.38:399][123]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.25-19.26.38:404][123]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' was aborted.
+[2017.07.25-19.26.38:404][123]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' was aborted.
+[2017.07.25-19.26.38:404][123]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' was aborted.
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.25-19.26.38:404][123]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.25-19.26.38:405][123]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.25-19.26.39:328][123]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.25-19.26.39:392][123]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.25-19.26.39:399][123]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.25-19.26.39:401][123]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.25-19.26.39:630][123]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.25-19.26.39:631][123]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.25-19.26.39:632][123]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.25-19.26.39:733][123]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.25-19.26.39:833][123]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.25-19.26.39:834][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.25-19.26.39:834][123]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.25-19.26.39:834][123]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.25-19.26.39:834][123]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.25-19.26.39:835][123]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.25-19.26.39:837][123]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.25-19.26.39:979][123]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.25-19.26.39:979][123]LogDirectoryWatcher: A directory notification for '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/' was aborted.
+[2017.07.25-19.26.39:979][123]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.25-19.26.39:979][123]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.25-19.26.39:982][123]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.25-19.26.39:986][123]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.25-19.26.40:053][123]LogDerivedDataCache: Shutdown
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.25-19.26.40:053][123]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.25-19.26.40:054][123]LogHMD: Oculus shutdown.
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.25-19.26.40:054][123]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.25-19.26.40:054][123]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.25-19.26.40:055][123]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.25-19.26.40:055][123]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB311CDAE-48BC-8229-8BEC-94B1A3A6C534%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=d0072156447091a74943ad8261b51e33%7C917b68a4689a43d093714a4f6a0dc761%7C0f6f6edd-16ad-4713-872b-9bf79eb283b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.25-19.26.40:064][123]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.25-19.26.40:066][123]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.25-19.26.40:069][123]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.25-19.26.40:071][123]LogExit: Exiting.
+[2017.07.25-19.26.40:087][123]Log file closed, 07/25/17 20:26:40

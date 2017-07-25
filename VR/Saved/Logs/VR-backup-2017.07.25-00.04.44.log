@@ -1,0 +1,985 @@
+﻿Log file open, 07/24/17 20:59:44
+LogInit:Display: Running engine for game: VR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1912116169) SRandInit(1912116169).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.125296
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.16.0(build = 409268) feature version = 0. Client runs version (prod = 1).1.16.0(build = 409268) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.24-19.59.46:184][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.24-19.59.46:184][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.24-19.59.46:195][  0]LogInit: Computer: SCOTTPC
+[2017.07.24-19.59.46:195][  0]LogInit: User: scott
+[2017.07.24-19.59.46:195][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.24-19.59.46:195][  0]LogInit: High frequency timer resolution =3.423915 MHz
+[2017.07.24-19.59.46:195][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.24-19.59.46:195][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.24-19.59.46:195][  0]LogMemory: Process Physical Memory: 277.69 MB used, 277.69 MB peak
+[2017.07.24-19.59.46:195][  0]LogMemory: Process Virtual Memory: 264.05 MB used, 264.05 MB peak
+[2017.07.24-19.59.46:195][  0]LogMemory: Physical Memory: 12602.13 MB used,  3709.77 MB free, 16311.90 MB total
+[2017.07.24-19.59.46:195][  0]LogMemory: Virtual Memory: 676.95 MB used,  3709.77 MB free, 134217728.00 MB total
+[2017.07.24-19.59.46:517][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.24-19.59.46:517][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.24-19.59.46:520][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.24-19.59.47:500][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.24-19.59.47:642][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.07.24-19.59.47:642][  0]LogD3D11RHI:       8110/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.24-19.59.47:645][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.24-19.59.47:645][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.24-19.59.47:645][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.24-19.59.47:656][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.24-19.59.47:656][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.24-19.59.47:656][  0]LogWindows: EnumDisplayDevices:
+[2017.07.24-19.59.47:656][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.07.24-19.59.47:656][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.07.24-19.59.47:656][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.24-19.59.47:656][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.07.24-19.59.47:656][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.24-19.59.47:656][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.07.24-19.59.47:656][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.24-19.59.47:656][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.24-19.59.47:656][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.24-19.59.47:684][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.24-19.59.47:693][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.24-19.59.47:786][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/scott/Documents/GitHub/VR/VR/Intermediate/Shaders/WorkingDirectory/29184/).
+[2017.07.24-19.59.47:786][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scott/AppData/Local/Temp/UnrealShaderWorkingDir/1D809EDA410DB7DE36E2799B2981FF67/'.
+[2017.07.24-19.59.47:786][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.24-19.59.48:947][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.24-19.59.49:009][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.24-19.59.49:076][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.24-19.59.49:145][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.24-19.59.49:215][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.24-19.59.49:275][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.24-19.59.49:340][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.24-19.59.49:403][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.24-19.59.49:472][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.24-19.59.49:540][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.24-19.59.49:604][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.24-19.59.49:671][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.24-19.59.49:737][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.24-19.59.49:801][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.24-19.59.49:860][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.24-19.59.49:984][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.24-19.59.49:984][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.24-19.59.50:036][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.24-19.59.50:177][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.24-19.59.50:220][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.24-19.59.50:283][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.24-19.59.50:354][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.24-19.59.50:414][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.24-19.59.50:481][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.24-19.59.50:481][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.24-19.59.51:470][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache: Loaded boot cache 0.10s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/scott/Documents/GitHub/VR/VR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.24-19.59.51:566][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.24-19.59.51:581][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.24-19.59.51:594][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.24-19.59.51:603][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.24-19.59.51:603][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.24-19.59.51:604][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.24-19.59.51:604][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.24-19.59.51:962][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.24-19.59.52:027][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.24-19.59.52:325][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.24-19.59.52:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.24-19.59.52:481][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.24-19.59.52:481][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.24-19.59.52:481][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.24-19.59.53:011][  0]LogNetVersion: VR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1895307458)
+[2017.07.24-19.59.53:070][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.07.24-19.59.53:139][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.048016 seconds
+[2017.07.24-19.59.53:145][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.24-19.59.53:145][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.24-19.59.53:145][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.24-19.59.53:223][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.24-19.59.56:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.24-19.59.56:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.24-19.59.56:824][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.24-19.59.57:276][  0]SourceControl: Info Source control is disabled
+[2017.07.24-19.59.57:495][  0]SourceControl: Info Source control is disabled
+[2017.07.24-19.59.57:580][  0]SourceControl: Info Source control is disabled
+[2017.07.24-19.59.57:653][  0]SourceControl: Info Source control is disabled
+[2017.07.24-19.59.58:619][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.24-19.59.59:382][  0]LogEngine: Initializing Engine...
+[2017.07.24-20.00.05:798][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.07.24-20.00.05:798][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.16.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.07.24-20.00.05:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.24-20.00.05:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.24-20.00.06:166][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.24-20.00.06:198][  0]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-20.00.06:225][  0]LogInit: FAudioDevice initialized.
+[2017.07.24-20.00.06:278][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/scott/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.24-20.00.06:293][  0]LogInit: Texture streaming: Enabled
+[2017.07.24-20.00.06:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.24-20.00.06:448][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A1D644C7-44DA-4B15-4F78-5E80F2A8EB5B}
+[2017.07.24-20.00.06:722][  0]LogInit: Transaction tracking system initialized
+[2017.07.24-20.00.07:128][  0]BlueprintLog: New page: Editor Load
+[2017.07.24-20.00.08:567][  0]LocalizationService: Info Localization service is disabled
+[2017.07.24-20.00.09:686][  0]LogConsoleResponse:Display: 
+[2017.07.24-20.00.09:828][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.24-20.00.09:828][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.24-20.00.10:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' took 0.02s
+[2017.07.24-20.00.11:205][  0]SourceControl: Info Source control is disabled
+[2017.07.24-20.00.11:293][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.24-20.00.14:895][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.24-20.00.14:907][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.24-20.00.14:911][  0]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.24-20.00.14:911][  0]LightingResults: New page: Lighting Build
+[2017.07.24-20.00.14:972][  0]MapCheck: New page: Map Check
+[2017.07.24-20.00.14:972][  0]LightingResults: New page: Lighting Build
+[2017.07.24-20.00.15:616][  0]LogAIModule: Creating AISystem for world Prototype
+[2017.07.24-20.00.15:632][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.24-20.00.15:652][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.24-20.00.15:721][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.711ms to complete.
+[2017.07.24-20.00.15:721][  0]LogFileHelpers: Loading map 'Prototype' took 0.810
+[2017.07.24-20.00.15:833][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_8540_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_7554_0///####STATCAT_Advanced####
+[2017.07.24-20.00.15:833][  0]LogCollectionManager: Loaded 0 collections in 0.001242 seconds
+[2017.07.24-20.00.15:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' took 0.01s
+[2017.07.24-20.00.15:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' took 0.01s
+[2017.07.24-20.00.15:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' took 0.01s
+[2017.07.24-20.00.15:917][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.24-20.00.15:926][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2329 classes and 491 folders.
+[2017.07.24-20.00.15:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.24-20.00.16:031][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.07.24-20.00.16:105][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.07.24-20.00.16:158][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.24-20.00.16:164][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.24-20.00.16:169][  0]LogSlate: Took 0.001013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.24-20.00.16:262][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.07.24-20.00.16:371][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.24-20.00.16:463][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.24-20.00.16:463][  0]LogLoad: (Engine Initialization) Total time: 32.86 seconds
+[2017.07.24-20.00.16:463][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.07.24-20.00.16:463][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.24-20.00.16:805][  0]LogOcInput: OculusInput pre-init called
+[2017.07.24-20.00.16:815][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.16.0
+[2017.07.24-20.00.16:815][  0]LogHMD: Starting GearVRController plugin
+[2017.07.24-20.00.16:834][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.07.24-20.00.17:148][  1]LogAssetRegistry: Asset discovery search completed in 24.0992 seconds
+[2017.07.24-20.00.17:150][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.24-20.00.17:150][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.07.24-20.00.43:990][353]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.24-20.00.43:999][353]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun.FBX)
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: Model, ItemCount : 3
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: Material, ItemCount : 3
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: Deformer, ItemCount : 3
+[2017.07.24-20.00.44:011][353]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.07.24-20.00.44:015][353]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun.FBX
+[2017.07.24-20.00.44:021][353]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.01.21:153][353]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.24-20.01.45:256][353]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun.FBX
+[2017.07.24-20.01.45:263][353]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.01.45:264][353]LogFbx: =================================================
+[2017.07.24-20.01.45:264][353]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.01.45:264][353]LogFbx: 	Total Deformer Count -2042122304.
+[2017.07.24-20.01.45:264][353]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.01.45:264][353]LogFbx: =================================================
+[2017.07.24-20.01.45:264][353]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.01.45:264][353]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.01.45:264][353]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.01.45:264][353]LogFbx: =================================================
+[2017.07.24-20.01.45:264][353]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.01.45:264][353]LogFbx: 	Total Deformer Count -2042122304.
+[2017.07.24-20.01.45:264][353]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.01.45:264][353]LogFbx: =================================================
+[2017.07.24-20.01.45:264][353]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.01.45:264][353]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.01.45:264][353]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.01.45:265][353]LogFbx: Valid bind pose for Pose (BIND_POSES) - SK_MachineGun
+[2017.07.24-20.01.45:265][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default'
+[2017.07.24-20.01.45:265][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default'
+[2017.07.24-20.01.45:265][353]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default.03_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.01.45:267][353]LogMaterial: Missing cached shader map for material 03_-_Default, compiling. 
+[2017.07.24-20.01.45:308][353]LogMaterial: Missing cached shader map for material 03_-_Default, compiling. 
+[2017.07.24-20.01.45:337][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default'
+[2017.07.24-20.01.45:337][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default'
+[2017.07.24-20.01.45:337][353]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default.02_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.01.45:343][353]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.07.24-20.01.45:388][353]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.07.24-20.01.45:421][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default'
+[2017.07.24-20.01.45:421][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default'
+[2017.07.24-20.01.45:422][353]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default.01_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.01.45:425][353]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.07.24-20.01.45:457][353]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.07.24-20.01.45:501][353]LogFbx:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2017.07.24-20.01.45:530][353]LogSkeletalMesh: Section 0: 188 vertices, 1 active bones
+[2017.07.24-20.01.45:530][353]LogSkeletalMesh: Section 1: 577 vertices, 2 active bones
+[2017.07.24-20.01.45:530][353]LogSkeletalMesh: Section 2: 156 vertices, 1 active bones
+[2017.07.24-20.01.45:531][353]LogSkeletalMesh: Section 0: Material=0, 272 triangles
+[2017.07.24-20.01.45:531][353]LogSkeletalMesh: Section 1: Material=1, 772 triangles
+[2017.07.24-20.01.45:531][353]LogSkeletalMesh: Section 2: Material=2, 120 triangles
+[2017.07.24-20.01.45:532][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Skeleton'
+[2017.07.24-20.01.45:532][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Skeleton'
+[2017.07.24-20.01.45:536][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset'
+[2017.07.24-20.01.45:536][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset'
+[2017.07.24-20.01.45:542][353]LogFbx: =================================================
+[2017.07.24-20.01.45:542][353]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.01.45:542][353]LogFbx: 	Total Deformer Count -257064416.
+[2017.07.24-20.01.45:542][353]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.01.45:542][353]LogFbx: =================================================
+[2017.07.24-20.01.45:542][353]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.01.45:542][353]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.01.45:542][353]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.01.45:542][353]LogFbx: =================================================
+[2017.07.24-20.01.45:542][353]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.01.45:542][353]LogFbx: 	Total Deformer Count -257064416.
+[2017.07.24-20.01.45:542][353]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.01.45:542][353]LogFbx: =================================================
+[2017.07.24-20.01.45:542][353]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.01.45:542][353]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.01.45:542][353]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.01.45:542][353]LogFbx: SortedLinks :(0) b_Root
+[2017.07.24-20.01.45:542][353]LogFbx: SortedLinks :(1) b_Spin
+[2017.07.24-20.01.45:542][353]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.01.45:543][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim'
+[2017.07.24-20.01.45:543][353]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim'
+[2017.07.24-20.01.45:547][353]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim.SK_MachineGun_Anim
+[2017.07.24-20.01.45:552][353]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.24-20.01.49:050][578]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2017.07.24-20.01.49:234][578]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.07.24-20.01.49:273][578]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.07.24-20.01.49:569][578]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.24-20.01.49:653][578]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0012 seconds. Added 1 classes and 0 folders.
+[2017.07.24-20.01.49:659][578]LogRenderer: Reallocating scene render targets to support 1616x1248 NumSamples 1 (Frame:1).
+[2017.07.24-20.01.55:895][873]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.07.24-20.01.55:935][873]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.07.24-20.01.56:311][873]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.02.14:237][192]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.07.24-20.02.14:250][192]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.07.24-20.02.15:557][282]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.07.24-20.02.15:581][282]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.07.24-20.02.51:002][140]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.07.24-20.02.54:495][405]LogEditorFactories: Performing atomic reimport of [D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX]
+[2017.07.24-20.02.54:520][405]LogFbx: Loading FBX Scene from D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX
+[2017.07.24-20.02.54:526][405]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.02.54:528][405]LogFbx: =================================================
+[2017.07.24-20.02.54:528][405]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.02.54:528][405]LogFbx: 	Total Deformer Count 793785056.
+[2017.07.24-20.02.54:528][405]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.02.54:528][405]LogFbx: =================================================
+[2017.07.24-20.02.54:528][405]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.02.54:528][405]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.02.54:528][405]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.02.54:528][405]LogFbx: =================================================
+[2017.07.24-20.02.54:528][405]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.02.54:528][405]LogFbx: 	Total Deformer Count 793785056.
+[2017.07.24-20.02.54:528][405]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.02.54:528][405]LogFbx: =================================================
+[2017.07.24-20.02.54:528][405]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.02.54:528][405]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.02.54:528][405]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.02.54:528][405]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.02.54:531][405]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim.SK_MachineGun_Anim
+[2017.07.24-20.02.54:535][405]LogEditorFactories: -- imported successfully
+[2017.07.24-20.03.24:920][801]LogEditorFactories: Performing atomic reimport of [D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX]
+[2017.07.24-20.03.24:943][801]LogFbx: Loading FBX Scene from D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX
+[2017.07.24-20.03.24:949][801]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.03.24:951][801]LogFbx: =================================================
+[2017.07.24-20.03.24:951][801]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.03.24:951][801]LogFbx: 	Total Deformer Count 793782096.
+[2017.07.24-20.03.24:951][801]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.03.24:951][801]LogFbx: =================================================
+[2017.07.24-20.03.24:951][801]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.03.24:951][801]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.03.24:951][801]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.03.24:951][801]LogFbx: =================================================
+[2017.07.24-20.03.24:951][801]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.03.24:951][801]LogFbx: 	Total Deformer Count 793782096.
+[2017.07.24-20.03.24:951][801]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.03.24:951][801]LogFbx: =================================================
+[2017.07.24-20.03.24:951][801]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.03.24:951][801]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.03.24:951][801]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.03.24:951][801]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.03.24:956][801]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim.SK_MachineGun_Anim
+[2017.07.24-20.03.24:961][801]LogEditorFactories: -- imported successfully
+[2017.07.24-20.03.41:996][ 92]LogSavePackage: Save=11.43ms
+[2017.07.24-20.03.41:996][ 92]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Anim105E8AA748F97E1DAE0BE3A67AA5FDDD.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim.uasset'
+[2017.07.24-20.03.42:002][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Anim.uasset
+[2017.07.24-20.03.43:330][188]LogSavePackage: Save=11.48ms
+[2017.07.24-20.03.43:330][188]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun5865EA5C48AC937F6CA9398FC0AE3B0B.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset'
+[2017.07.24-20.03.43:336][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset
+[2017.07.24-20.03.44:551][288]LogSavePackage: Save=2.91ms
+[2017.07.24-20.03.44:551][288]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Skeleton5D5FF87F42A942EB8B24B8A9B5CE03E8.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Skeleton.uasset'
+[2017.07.24-20.03.44:557][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_Skeleton.uasset
+[2017.07.24-20.10.17:430][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/Prototype' took 0.022
+[2017.07.24-20.10.17:433][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default] ([1] browsable assets)...
+[2017.07.24-20.10.17:444][600]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default.03_-_Default]
+[2017.07.24-20.10.17:444][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default]
+[2017.07.24-20.10.17:461][600]LogSavePackage: Save=13.42ms
+[2017.07.24-20.10.17:461][600]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/03_-_Default_Auto1EE52AB694B9B3C94BA24D6AC25BB07F3.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default_Auto1.uasset'
+[2017.07.24-20.10.17:465][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default_Auto1.uasset
+[2017.07.24-20.10.17:466][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default] ([1] browsable assets)...
+[2017.07.24-20.10.17:478][600]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default.02_-_Default]
+[2017.07.24-20.10.17:478][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default]
+[2017.07.24-20.10.17:496][600]LogSavePackage: Save=14.26ms
+[2017.07.24-20.10.17:496][600]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/02_-_Default_Auto1EB7DC7EF4783AAE0D8F7A3BFEF4FCEA9.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default_Auto1.uasset'
+[2017.07.24-20.10.17:499][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default_Auto1.uasset
+[2017.07.24-20.10.17:501][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default] ([1] browsable assets)...
+[2017.07.24-20.10.17:510][600]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default.01_-_Default]
+[2017.07.24-20.10.17:510][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default]
+[2017.07.24-20.10.17:524][600]LogSavePackage: Save=10.88ms
+[2017.07.24-20.10.17:524][600]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/01_-_Default_Auto1177B813949E79090B992F4BBFE39FAF6.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default_Auto1.uasset'
+[2017.07.24-20.10.17:527][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default_Auto1.uasset
+[2017.07.24-20.10.17:529][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset] ([1] browsable assets)...
+[2017.07.24-20.10.17:529][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset]
+[2017.07.24-20.10.17:537][600]LogSavePackage: Save=5.52ms
+[2017.07.24-20.10.17:537][600]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_PhysicsAsset_Auto1B1A06DC94966D215FE91A395F993BCFA.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset_Auto1.uasset'
+[2017.07.24-20.10.17:541][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Autosaves/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset_Auto1.uasset
+[2017.07.24-20.10.17:541][600]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.07.24-20.10.47:579][650]LogSavePackage: Save=11.06ms
+[2017.07.24-20.10.47:579][650]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/03_-_Default3119DF574A79AE8558127B89B61591CA.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default.uasset'
+[2017.07.24-20.10.47:586][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/03_-_Default.uasset
+[2017.07.24-20.10.47:614][650]LogSavePackage: Save=10.81ms
+[2017.07.24-20.10.47:614][650]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/02_-_Default567E8C5340B033A574DB328B9721A50F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default.uasset'
+[2017.07.24-20.10.47:621][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/02_-_Default.uasset
+[2017.07.24-20.10.47:650][650]LogSavePackage: Save=11.29ms
+[2017.07.24-20.10.47:650][650]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/01_-_DefaultB1CB2F86497C74770329F4AA27F8A5DA.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default.uasset'
+[2017.07.24-20.10.47:656][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/01_-_Default.uasset
+[2017.07.24-20.10.47:665][650]LogSavePackage: Save=4.05ms
+[2017.07.24-20.10.47:665][650]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_PhysicsAsset9579802D481C4838248AB49060EA944F.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset.uasset'
+[2017.07.24-20.10.47:671][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun_PhysicsAsset.uasset
+[2017.07.24-20.10.50:513][946]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun_Reload.FBX)
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: Model, ItemCount : 2
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: AnimationCurve, ItemCount : 9
+[2017.07.24-20.10.50:521][946]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2017.07.24-20.10.50:525][946]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun_Reload.FBX
+[2017.07.24-20.10.50:530][946]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.11.08:476][946]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\SK_MachineGun_Reload.FBX
+[2017.07.24-20.11.08:481][946]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.11.08:483][946]LogFbx: SortedLinks :(0) b_Root
+[2017.07.24-20.11.08:483][946]LogFbx: SortedLinks :(1) b_Spin
+[2017.07.24-20.11.08:483][946]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.11.08:483][946]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/NewFolder/SK_MachineGun_Reload'
+[2017.07.24-20.11.08:483][946]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/NewFolder/SK_MachineGun_Reload'
+[2017.07.24-20.11.08:485][946]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/NewFolder/SK_MachineGun_Reload.SK_MachineGun_Reload
+[2017.07.24-20.11.11:089][238]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.07.24-20.11.11:117][238]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.07.24-20.11.11:369][238]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.11.21:348][181]LogSavePackage: Save=9.76ms
+[2017.07.24-20.11.21:348][181]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Anim5C5CF5114D5BC15435394CA6A5BAF2AE.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/NewFolder/SK_MachineGun_Anim.uasset'
+[2017.07.24-20.11.21:354][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/NewFolder/SK_MachineGun_Anim.uasset
+[2017.07.24-20.11.26:257][722]LogSavePackage: Save=10.39ms
+[2017.07.24-20.11.26:257][722]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Anim65600B3B4720407E0CA24F928F9CB9E8.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Anim.uasset'
+[2017.07.24-20.11.26:262][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Anim.uasset
+[2017.07.24-20.11.26:285][722]LogSavePackage: Save=9.43ms
+[2017.07.24-20.11.26:285][722]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Reload72E03561453A23D4E69F5CA03CBA71D1.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Reload.uasset'
+[2017.07.24-20.11.26:291][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Reload.uasset
+[2017.07.24-20.11.37:334][987]LogSavePackage: Save=9.86ms
+[2017.07.24-20.11.37:334][987]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Spin6F9418E34588C1E64750B4B7FFABD93A.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset'
+[2017.07.24-20.11.37:339][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset
+[2017.07.24-20.11.41:666][474]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.07.24-20.11.41:704][474]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.07.24-20.11.43:953][629]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.07.24-20.11.43:976][629]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.07.24-20.11.44:234][629]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.13.05:643][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_7.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.07.24-20.13.05:683][692]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_7.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.07.24-20.14.22:381][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.07.24-20.14.22:420][268]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_8.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2017.07.24-20.14.41:022][764]LogEditorFactories: Performing atomic reimport of [D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX]
+[2017.07.24-20.14.41:049][764]LogFbx: Loading FBX Scene from D:/Work/Game Projects/VR 2017/Exported Assets/Weapons/SK_MachineGun.FBX
+[2017.07.24-20.14.41:056][764]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.14.41:057][764]LogFbx: =================================================
+[2017.07.24-20.14.41:057][764]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.14.41:057][764]LogFbx: 	Total Deformer Count 607804672.
+[2017.07.24-20.14.41:057][764]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.14.41:057][764]LogFbx: =================================================
+[2017.07.24-20.14.41:057][764]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.14.41:057][764]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.14.41:057][764]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.14.41:057][764]LogFbx: =================================================
+[2017.07.24-20.14.41:057][764]LogFbx: Dumping Node START [SK_MachineGun] 
+[2017.07.24-20.14.41:057][764]LogFbx: 	Total Deformer Count 607804672.
+[2017.07.24-20.14.41:057][764]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.24-20.14.41:057][764]LogFbx: =================================================
+[2017.07.24-20.14.41:057][764]LogFbx: 	Attribute () Type (4).
+[2017.07.24-20.14.41:057][764]LogFbx: 		[Node Attribute Child 1] SK_MachineGun (Type Mesh).
+[2017.07.24-20.14.41:057][764]LogFbx: Dumping Node END [SK_MachineGun]
+[2017.07.24-20.14.41:058][764]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node SK_MachineGun : Not all the deformers are stored in this BindPose
+[2017.07.24-20.14.41:058][764]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.24-20.14.41:058][764]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - SK_MachineGun
+[2017.07.24-20.14.41:058][764]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.24-20.14.41:060][764]LogFbx:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2017.07.24-20.14.41:079][764]LogSkeletalMesh: Section 0: 572 vertices, 1 active bones
+[2017.07.24-20.14.41:079][764]LogSkeletalMesh: Section 1: 1349 vertices, 2 active bones
+[2017.07.24-20.14.41:079][764]LogSkeletalMesh: Section 2: 216 vertices, 1 active bones
+[2017.07.24-20.14.41:083][764]LogSkeletalMesh: Section 0: Material=0, 272 triangles
+[2017.07.24-20.14.41:083][764]LogSkeletalMesh: Section 1: Material=1, 772 triangles
+[2017.07.24-20.14.41:083][764]LogSkeletalMesh: Section 2: Material=2, 120 triangles
+[2017.07.24-20.14.41:084][764]LogEditorFactories: -- imported successfully
+[2017.07.24-20.14.41:085][764]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.24-20.14.44:414][ 13]LogSavePackage: Save=11.88ms
+[2017.07.24-20.14.44:414][ 13]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGunEBC12C734586A527E68B5383E4FB3F5B.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset'
+[2017.07.24-20.14.44:419][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset
+[2017.07.24-20.14.49:234][520]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.24-20.14.49:301][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.24-20.14.49:302][520]PIE: New page: PIE session: Prototype (24 Jul 2017 22:14:49)
+[2017.07.24-20.14.49:302][520]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.24-20.14.49:313][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010535s)
+[2017.07.24-20.14.49:313][520]LogAIModule: Creating AISystem for world Prototype
+[2017.07.24-20.14.49:313][520]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2017.07.24-20.14.49:314][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.011652s)
+[2017.07.24-20.14.49:337][520]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-20.14.49:353][520]LogInit: FAudioDevice initialized.
+[2017.07.24-20.14.49:396][520]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.24-20.14.49:396][520]LogLoad: Game class is 'GameModeBase'
+[2017.07.24-20.14.49:401][520]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.24-21.14.49
+[2017.07.24-20.14.49:402][520]LogWorld: Bringing up level for play took: 0.004840
+[2017.07.24-20.14.49:445][520]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.07.24-20.14.49:453][520]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.309
+[2017.07.24-20.14.58:437][541]Cmd: DELETE
+[2017.07.24-20.14.58:438][541]Cmd: ACTOR DELETE
+[2017.07.24-20.14.58:442][541]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.24-20.14.58:452][541]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.07.24-20.15.04:300][218]LogSavePackage: Save=10.87ms
+[2017.07.24-20.15.04:300][218]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Sm_MachineGun6B5BF8A6485E7834B7E9439E12721193.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Sm_MachineGun.uasset'
+[2017.07.24-20.15.04:306][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Sm_MachineGun.uasset
+[2017.07.24-20.15.04:335][218]LogSavePackage: Save=3.08ms
+[2017.07.24-20.15.04:335][218]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGunAE65B4BB48FB578D8261AD928B6FB6C9.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset'
+[2017.07.24-20.15.04:340][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset
+[2017.07.24-20.15.08:292][678]LogSavePackage: Save=10.45ms
+[2017.07.24-20.15.08:292][678]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/S_MachineGun457B56284B7E26635DD6BA9E66641C57.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/S_MachineGun.uasset'
+[2017.07.24-20.15.08:297][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/S_MachineGun.uasset
+[2017.07.24-20.15.08:438][678]LogSavePackage: Save=4.57ms
+[2017.07.24-20.15.08:438][678]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun7AE482A844369EA323DF5EAA5C073F79.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset'
+[2017.07.24-20.15.08:441][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset
+[2017.07.24-20.15.09:172][763]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.07.24-20.15.15:969][247]LogSavePackage: Save=9.27ms
+[2017.07.24-20.15.15:969][247]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SM_MachineGunEA468B304EBD3CBA4214EF9916E685DF.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset'
+[2017.07.24-20.15.15:975][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset
+[2017.07.24-20.15.16:118][247]LogSavePackage: Save=3.39ms
+[2017.07.24-20.15.16:118][247]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun9F337BE0429D7FAAE77F3A931CC7CE87.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset'
+[2017.07.24-20.15.16:120][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset
+[2017.07.24-20.15.20:415][742]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2017.07.24-20.15.20:453][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2017.07.24-20.15.50:511][764]LogSavePackage: Save=13.29ms
+[2017.07.24-20.15.50:512][764]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_Orange8056B76944383F3048863AADF13F22CF.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Orange.uasset'
+[2017.07.24-20.15.50:517][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Orange.uasset
+[2017.07.24-20.15.50:654][764]LogSavePackage: Save=5.45ms
+[2017.07.24-20.15.50:654][764]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SM_MachineGun2F54F45346C383FBFBA74EBD37D23126.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset'
+[2017.07.24-20.15.50:657][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset
+[2017.07.24-20.15.53:155][  2]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Orange.M_MachineGun_Orange needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.15.53:158][  2]LogMaterial: Missing cached shader map for material M_MachineGun_Orange, compiling. 
+[2017.07.24-20.16.07:280][316]LogSavePackage: Save=15.59ms
+[2017.07.24-20.16.07:280][316]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_GunMetalB034CFEC4C11D340E6FA9395C2C4646C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_GunMetal.uasset'
+[2017.07.24-20.16.07:286][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_GunMetal.uasset
+[2017.07.24-20.16.07:428][316]LogSavePackage: Save=6.87ms
+[2017.07.24-20.16.07:428][316]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SM_MachineGun63230AF84655FD8E839FEE92A3C96043.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset'
+[2017.07.24-20.16.07:431][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset
+[2017.07.24-20.16.15:128][ 35]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_GunMetal.M_MachineGun_GunMetal needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.16.15:130][ 35]LogMaterial: Missing cached shader map for material M_MachineGun_GunMetal, compiling. 
+[2017.07.24-20.16.21:122][505]LogSavePackage: Save=12.24ms
+[2017.07.24-20.16.21:122][505]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_Silver7C6BE5FB44F99316A2DD21BC7BBB321B.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Silver.uasset'
+[2017.07.24-20.16.21:128][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Silver.uasset
+[2017.07.24-20.16.21:272][505]LogSavePackage: Save=7.25ms
+[2017.07.24-20.16.21:272][505]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SM_MachineGunA2FE255F45E60045AE9FBF94F98B37DE.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset'
+[2017.07.24-20.16.21:275][505]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SM_MachineGun.uasset
+[2017.07.24-20.16.23:576][726]LogMaterial:Warning: Material /Game/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Silver.M_MachineGun_Silver needed to have new flag set bUsedWithSkeletalMesh !
+[2017.07.24-20.16.23:578][726]LogMaterial: Missing cached shader map for material M_MachineGun_Silver, compiling. 
+[2017.07.24-20.16.30:763][293]LogSavePackage: Save=12.46ms
+[2017.07.24-20.16.30:763][293]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun8DEED3AB4A0AF6EA2A1061B25AA331EB.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset'
+[2017.07.24-20.16.30:768][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.uasset
+[2017.07.24-20.16.50:898][125]LogSavePackage: Save=6.42ms
+[2017.07.24-20.16.50:898][125]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_PhysicsAsset420B59864156B21AF43B9AB0550035AA.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_PhysicsAsset.uasset'
+[2017.07.24-20.16.50:903][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_PhysicsAsset.uasset
+[2017.07.24-20.16.50:912][125]LogSavePackage: Save=3.30ms
+[2017.07.24-20.16.50:912][125]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Skeleton073A39394F257EE37CAE2E82B69D6A38.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_Skeleton.uasset'
+[2017.07.24-20.16.50:918][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_Skeleton.uasset
+[2017.07.24-20.16.51:103][125]LogSavePackage: Save=4.72ms
+[2017.07.24-20.16.51:103][125]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_SpinC7FBD3C4448C33E53682CA9B12C4C694.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset'
+[2017.07.24-20.16.51:106][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset
+[2017.07.24-20.16.51:145][125]LogSavePackage: Save=5.46ms
+[2017.07.24-20.16.51:145][125]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Reload4A4A94FB48E8900C6682288F0862BDEC.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Reload.uasset'
+[2017.07.24-20.16.51:149][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Reload.uasset
+[2017.07.24-20.16.51:190][125]LogSavePackage: Save=5.02ms
+[2017.07.24-20.16.51:190][125]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_SpinCC695A9948357CC7DC1518996585CFB8.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset'
+[2017.07.24-20.16.51:193][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset
+[2017.07.24-20.17.01:929][208]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.24-20.17.11:190][865]LogSavePackage: Save=5.37ms
+[2017.07.24-20.17.11:190][865]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Spin54A13EEB42F682738BFECFBA141A2A9C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset'
+[2017.07.24-20.17.11:193][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Skeletal/Animations/SK_MachineGun_Spin.uasset
+[2017.07.24-20.17.11:228][865]LogSavePackage: Save=5.13ms
+[2017.07.24-20.17.11:228][865]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_PhysicsAsset3A70E8764EB9126D976C12A884D3E1FF.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_PhysicsAsset.uasset'
+[2017.07.24-20.17.11:231][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_PhysicsAsset.uasset
+[2017.07.24-20.17.21:877][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_10.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.07.24-20.17.21:912][110]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_10.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2017.07.24-20.17.23:655][254]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_11.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2017.07.24-20.17.23:678][254]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_11.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2017.07.24-20.17.23:912][254]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.17.26:463][479]LogSavePackage: Save=13.16ms
+[2017.07.24-20.17.26:463][479]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_2D6DE94514F0A4BB74516F88358F2D4F6.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_2.uasset'
+[2017.07.24-20.17.26:468][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun_2.uasset
+[2017.07.24-20.17.33:761][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_19' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_16' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_15' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_5' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_4' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_17' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_10' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_1' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_6' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:762][177]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_9' or package '/Engine/Transient'.
+[2017.07.24-20.17.33:848][177]LogLinker:Warning: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun'
+[2017.07.24-20.17.33:849][177]LogLinker:Warning: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun'
+[2017.07.24-20.17.33:849][177]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Art/Prototype/Weapons/Machine_Gun/Skeletal/SK_MachineGun.SK_MachineGun'
+[2017.07.24-20.17.37:037][420]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_20' or package '/Engine/Transient'.
+[2017.07.24-20.17.37:037][420]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_11' or package '/Engine/Transient'.
+[2017.07.24-20.17.37:037][420]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.07.24-20.17.37:037][420]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_1' or package '/Engine/Transient'.
+[2017.07.24-20.17.37:037][420]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_7' or package '/Engine/Transient'.
+[2017.07.24-20.17.44:197][244]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_12.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2017.07.24-20.17.44:236][244]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_12.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2017.07.24-20.17.57:648][760]LogSavePackage: Save=13.59ms
+[2017.07.24-20.17.57:648][760]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun12A869D8D473BBEBE951554B3FAFC399E.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun1.uasset'
+[2017.07.24-20.17.57:654][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun1.uasset
+[2017.07.24-20.18.01:991][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.24-20.18.02:215][243]LogSavePackage: Save=191.58ms
+[2017.07.24-20.18.02:216][243]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/PrototypeCDB4551344A409EC01F081B99230299D.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.24-20.18.02:221][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.24-20.18.02:245][243]LogFileHelpers: Saving map 'Prototype' took 0.320
+[2017.07.24-20.18.02:276][243]LogSavePackage: Save=3.78ms
+[2017.07.24-20.18.02:276][243]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun2E77A3FA4AFACA1E8EB34FB4050CE82E.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset'
+[2017.07.24-20.18.02:282][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGun.uasset
+[2017.07.24-20.18.02:316][243]LogSavePackage: Save=6.07ms
+[2017.07.24-20.18.02:316][243]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_GunMetal8BB2333048F166C28933B9A6D51D1A61.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_GunMetal.uasset'
+[2017.07.24-20.18.02:322][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_GunMetal.uasset
+[2017.07.24-20.18.02:359][243]LogSavePackage: Save=6.18ms
+[2017.07.24-20.18.02:359][243]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_SilverD6040B0248F5F1F8623E9DB63B07C52E.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Silver.uasset'
+[2017.07.24-20.18.02:366][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Silver.uasset
+[2017.07.24-20.18.02:407][243]LogSavePackage: Save=4.84ms
+[2017.07.24-20.18.02:407][243]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/M_MachineGun_Orange66A708DC4DBD5DADC4A3D385A5F653C7.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Orange.uasset'
+[2017.07.24-20.18.02:413][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/M_MachineGun_Orange.uasset
+[2017.07.24-20.18.11:058][257]LogSavePackage: Save=12.84ms
+[2017.07.24-20.18.11:058][257]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGunn5A856E964CD01F77608C2BBEC2D6130E.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGunn.uasset'
+[2017.07.24-20.18.11:065][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/SK_MachineGunn.uasset
+[2017.07.24-20.19.20:452][644]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\Animations\SK_MachineGun_Reload.FBX)
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: Model, ItemCount : 2
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: AnimationCurve, ItemCount : 9
+[2017.07.24-20.19.20:457][644]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2017.07.24-20.19.20:460][644]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\Animations\SK_MachineGun_Reload.FBX
+[2017.07.24-20.19.20:465][644]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.19.26:846][644]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\Animations\SK_MachineGun_Reload.FBX
+[2017.07.24-20.19.26:852][644]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.19.26:854][644]LogFbx: SortedLinks :(0) b_Root
+[2017.07.24-20.19.26:854][644]LogFbx: SortedLinks :(1) b_Spin
+[2017.07.24-20.19.26:854][644]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.19.26:854][644]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Reload'
+[2017.07.24-20.19.26:854][644]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Reload'
+[2017.07.24-20.19.26:859][644]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Reload.SK_MachineGun_Reload
+[2017.07.24-20.19.26:867][644]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\Animations\SK_MachineGun_Spin.FBX)
+[2017.07.24-20.19.26:878][644]LogFbx: Loading FBX Scene from D:\Work\Game Projects\VR 2017\Exported Assets\Weapons\Animations\SK_MachineGun_Spin.FBX
+[2017.07.24-20.19.26:883][644]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.24-20.19.26:885][644]LogFbx: SortedLinks :(0) b_Root
+[2017.07.24-20.19.26:885][644]LogFbx: SortedLinks :(1) b_Spin
+[2017.07.24-20.19.26:885][644]LogFbx: Parsing AnimStack Take 001
+[2017.07.24-20.19.26:885][644]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Spin'
+[2017.07.24-20.19.26:885][644]LogLinker: Can't find file '/Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Spin'
+[2017.07.24-20.19.26:889][644]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Spin.SK_MachineGun_Spin
+[2017.07.24-20.19.28:708][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_13.DebugSkelMeshComponent_23) Already registered. Aborting.
+[2017.07.24-20.19.28:737][855]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_13.DebugSkelMeshComponent_23) - call TermArticulated first.
+[2017.07.24-20.19.28:987][855]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.19.33:160][251]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.Actor_14.DebugSkelMeshComponent_26) Already registered. Aborting.
+[2017.07.24-20.19.33:198][251]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.Actor_14.DebugSkelMeshComponent_26) - call TermArticulated first.
+[2017.07.24-20.19.33:445][251]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.07.24-20.19.38:804][803]LogSavePackage: Save=10.44ms
+[2017.07.24-20.19.38:804][803]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_SpinC3E08CD74EC59F49A4D904B89B29097C.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Spin.uasset'
+[2017.07.24-20.19.38:810][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Spin.uasset
+[2017.07.24-20.19.38:837][803]LogSavePackage: Save=9.83ms
+[2017.07.24-20.19.38:837][803]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/SK_MachineGun_Reload50746F2142585D5DCBDF82AACB32A5DD.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Reload.uasset'
+[2017.07.24-20.19.38:843][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Art/Prototype/Weapons/Machine_Gun/Animations/SK_MachineGun_Reload.uasset
+[2017.07.24-20.19.46:699][672]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2017.07.24-20.19.49:060][944]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_MachineGunn)
+[2017.07.24-20.19.57:912][982]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.24-20.19.57:927][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.24-20.19.57:928][982]PIE: New page: PIE session: Prototype (24 Jul 2017 22:19:57)
+[2017.07.24-20.19.57:928][982]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Prototype
+[2017.07.24-20.19.57:937][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009536s)
+[2017.07.24-20.19.57:938][982]LogAIModule: Creating AISystem for world Prototype
+[2017.07.24-20.19.57:938][982]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2017.07.24-20.19.57:938][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Prototype.Prototype to /Game/Scenes/UEDPIE_0_Prototype.Prototype (0.010373s)
+[2017.07.24-20.19.57:955][982]LogInit: XAudio2 using 'Main Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-20.19.57:970][982]LogInit: FAudioDevice initialized.
+[2017.07.24-20.19.58:002][982]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.24-20.19.58:002][982]LogLoad: Game class is 'GameModeBase'
+[2017.07.24-20.19.58:007][982]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2017.07.24-21.19.58
+[2017.07.24-20.19.58:007][982]LogWorld: Bringing up level for play took: 0.004354
+[2017.07.24-20.19.58:010][982]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Prototype 0.865
+[2017.07.24-20.20.06:833][997]LogRenderer: Reallocating scene render targets to support 1792x1248 NumSamples 1 (Frame:49952).
+[2017.07.24-20.20.06:874][998]LogRenderer: Reallocating scene render targets to support 2560x1400 NumSamples 1 (Frame:49954).
+[2017.07.24-20.20.14:408][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock4)
+[2017.07.24-20.20.17:864][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plant_02)
+[2017.07.24-20.20.27:290][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_FloorTile_04)
+[2017.07.24-20.20.28:094][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plant_3)
+[2017.07.24-20.20.30:751][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plant_02)
+[2017.07.24-20.20.33:076][ 41]Cmd: SELECT NONE
+[2017.07.24-20.20.34:744][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock8)
+[2017.07.24-20.20.43:816][284]Cmd: TRANSACTION UNDO
+[2017.07.24-20.20.43:816][284]LogEditorTransaction: Undo Move Actors
+[2017.07.24-20.23.11:013][657]Cmd: SELECT NONE
+[2017.07.24-20.23.14:083][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.24-20.23.14:314][987]LogSavePackage: Save=196.98ms
+[2017.07.24-20.23.14:314][987]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype639FE1E54A27EE338441A981998BD410.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap'
+[2017.07.24-20.23.14:320][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype.umap
+[2017.07.24-20.23.14:366][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Prototype_BuiltData" FILE="../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset" SILENT=true
+[2017.07.24-20.23.14:703][987]LogSavePackage: Save=301.50ms
+[2017.07.24-20.23.14:703][987]LogSavePackage: Moving '../../../../../../Users/scott/Documents/GitHub/VR/VR/Saved/Prototype_BuiltData4DD613C243C3AEAC3DE119A092AAF687.tmp' to '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset'
+[2017.07.24-20.23.14:707][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/Scenes/Prototype_BuiltData.uasset
+[2017.07.24-20.23.16:975][239]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.24-20.23.17:193][240]Cmd: QUIT_EDITOR
+[2017.07.24-20.23.17:806][240]LogExit: Preparing to exit.
+[2017.07.24-20.23.18:685][240]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/' was aborted.
+[2017.07.24-20.23.18:706][240]LogExit: Editor shut down
+[2017.07.24-20.23.18:709][240]LogExit: Transaction tracking system shut down
+[2017.07.24-20.23.18:793][240]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.24-20.23.18:794][240]LogExit: Object subsystem successfully closed.
+[2017.07.24-20.23.18:818][240]LogD3D11RHI: Shutdown
+[2017.07.24-20.23.18:818][240]LogD3D11RHI: CleanupD3DDevice
+[2017.07.24-20.23.18:907][240]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (536)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module AnimationEditor (532)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (530)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module SkeletonEditor (528)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (526)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.24-20.23.18:926][240]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.24-20.23.18:926][240]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.24-20.23.18:927][240]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Collections/' was aborted.
+[2017.07.24-20.23.18:927][240]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Content/Developers/scott/Collections/' was aborted.
+[2017.07.24-20.23.18:927][240]LogDirectoryWatcher: A directory notification for 'C:/Users/scott/Documents/GitHub/VR/VR/Saved/Collections/' was aborted.
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.24-20.23.18:927][240]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.24-20.23.18:928][240]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.24-20.23.19:487][240]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.24-20.23.19:550][240]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.24-20.23.19:551][240]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.24-20.23.19:783][240]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.24-20.23.19:784][240]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.24-20.23.19:885][240]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.24-20.23.19:985][240]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.24-20.23.19:986][240]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.24-20.23.19:987][240]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.24-20.23.19:987][240]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.24-20.23.19:989][240]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.24-20.23.20:073][240]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.24-20.23.20:073][240]LogDirectoryWatcher: A directory notification for '../../../../../../Users/scott/Documents/GitHub/VR/VR/Content/' was aborted.
+[2017.07.24-20.23.20:073][240]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.24-20.23.20:073][240]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.24-20.23.20:077][240]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.24-20.23.20:100][240]LogDerivedDataCache: Shutdown
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.24-20.23.20:100][240]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.24-20.23.20:101][240]LogHMD: Oculus shutdown.
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.24-20.23.20:101][240]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.24-20.23.20:101][240]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.24-20.23.20:101][240]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.24-20.23.20:101][240]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4C29D3FC-4861-E805-7CBC-C9AFE9EB1BAA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=d0072156447091a74943ad8261b51e33%7C917b68a4689a43d093714a4f6a0dc761%7C0f6f6edd-16ad-4713-872b-9bf79eb283b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.24-20.23.20:117][240]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.24-20.23.20:118][240]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.24-20.23.20:118][240]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.24-20.23.20:118][240]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.24-20.23.20:118][240]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.24-20.23.20:119][240]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.24-20.23.20:119][240]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.24-20.23.20:119][240]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.24-20.23.20:119][240]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.24-20.23.20:120][240]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.24-20.23.20:121][240]LogExit: Exiting.
+[2017.07.24-20.23.20:133][240]Log file closed, 07/24/17 21:23:20
